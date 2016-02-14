@@ -1,0 +1,331 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*#padding {
+	padding-top: 
+}*/
+
+
+#wrapper {
+	margin-right: 0%; 
+    margin-left: 0%;
+}
+
+@media screen and (min-width: 1024px) {
+	#wrapper {
+		align-content: center; 
+		margin-right: 10%; 
+		margin-left: 10%;
+		width:1100px;margin: auto;
+
+	}
+}
+
+
+#MediaNavigation {
+	  display: none;
+  }
+@media screen and (min-width: 1024px) {
+  #MediaNavigation {
+	  display:block;
+	  position:absolute;
+	  top: 30px;
+	  z-index:5;
+	  left: 475px;
+  }
+}
+
+.donate {
+	display: none;
+}
+
+@media screen and (min-width: 1024px) {
+	.donate {
+		display:block;
+		z-index: 5;
+	}
+}
+
+.paddingTop24 {
+	padding-top: 24px;
+
+}
+
+#twitter {
+	color: #3487D4;
+	padding:5px;
+	margin-right:10px;
+}
+.twitter {
+	color: #3487D4;
+	padding:5px;
+	margin-right:10px;
+}
+
+#twitter:hover {
+	background-color: #3487D4;
+	color: white;
+	border-radius: 5px;
+}
+
+.twitter:hover {
+	background-color: #3487D4;
+	color: white;
+	border-radius: 5px;
+}
+
+#instagram {
+	color: #2D4F93;
+	padding:5px;
+	margin-right:10px;
+	float:left;
+}
+
+.instagram {
+	color: #2D4F93;
+	padding:5px;
+	margin-right:10px;
+	float:left;
+}
+
+#instagram:hover {
+	background-color: #2D4F93;
+	color: white;
+	border-radius: 5px;
+}
+
+.instagram:hover {
+	background-color: #2D4F93;
+	color: white;
+	border-radius: 5px;
+}
+
+#facebook {
+	color:#1C64BA;
+	padding:5px;
+	margin-right:10px;
+	float:left;
+}
+.facebook {
+	color:#1C64BA;
+	padding:5px;
+	margin-right:10px;
+	float:left;
+}
+
+#facebook:hover {
+	background-color: #3487D4;
+	color: white;
+	border-radius: 5px;
+}
+.facebook:hover {
+	background-color: #3487D4;
+	color: white;
+	border-radius: 5px;
+}
+
+#pinterest {
+	color:#DF4446;
+	padding:5px;
+	margin-right:10px;
+	float:left;
+}
+.pinterest {
+	color:#DF4446;
+	padding:5px;
+	margin-right:10px;
+	float:left;
+}
+
+#pinterest:hover {
+	background-color: #DF4446;
+	color: white;
+	border-radius: 5px;
+}
+.pinterest:hover {
+	background-color: #DF4446;
+	color: white;
+	border-radius: 5px;
+}
+
+#google {
+	color: #CF2B2E;
+	padding:5px;
+	margin-right:10px;
+	float:left;
+}
+.google {
+	color: #CF2B2E;
+	padding:5px;
+	margin-right:10px;
+	float:left;
+}
+
+#google:hover {
+	background-color: #CF2B2E;
+	color: white;
+	border-radius: 5px;
+}
+.google:hover {
+	background-color: #CF2B2E;
+	color: white;
+	border-radius: 5px;
+}
+
+#youtube {
+	color:#9C1C1E;
+	padding:5px;
+	margin-right:10px;
+	float:left;
+}
+.youtube {
+	color:#9C1C1E;
+	padding:5px;
+	margin-right:10px;
+	float:left;
+}
+
+#youtube:hover {
+	background-color: #9C1C1E;
+	color: white;
+	border-radius: 5px;
+}
+.youtube:hover {
+	background-color: #9C1C1E;
+	color: white;
+	border-radius: 5px;
+}
+
+#paypal {
+	color:#0003B1;
+	padding:5px;
+	margin-right:10px;
+	float:left;
+}
+
+#paypal:hover {
+	background-color: #83BCD0;
+	color: white;
+	border-radius: 5px;
+}
+
+.cardA {
+	height: 300px;
+	overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.cardB {
+	max-height: 130px;
+}
+
+.cardBText {
+	white-space: nowrap; 
+    width: 25em;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.navigationPadding {
+	padding-right: 20px;
+	padding-left: 40px;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+#cd-hamburger-menu a {
+    background: #26292f url("../img/cd-hamburger-menu.svg") no-repeat scroll center center;
+}
+
+#cd-hamburger-menu a, #cd-cart-trigger a {
+    height: 100%;
+    width: 60px;
+}
+
+.cd-img-replace {
+    display: inline-block;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+}
+
+.navigationBigScreen {
+	margin-top:50px;
+}
+
+@media screen and (min-width: 1024px) {
+	.navigationBigScreen {
+		margin: auto;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.navigationBigScreenLinkHome {
+		color: #0A5CCB;
+		margin-left: 130px;
+		padding-right:45px;	
+		padding-left:45px;	
+		padding-top: 20px;	
+	}
+	#nav a:hover {
+		color: red;
+		background-color: #D6D2D2; 		
+	}
+}
+
+#nav a:hover {
+	color: red;
+	background-color: #D6D2D2; 		
+}
+
+#nav {
+	display:none;	
+}
+
+@media screen and (min-width: 1024px) {
+	#nav {
+		display:block;	
+	}
+}
+
+#footer{
+	align-content:center;
+}
+#footer{
+}
+
+#footerNavigation{
+	width:300px;
+    margin: auto;
+}
+@media screen and (min-width: 1024px) {
+
+	#footerNavigation{
+		display:none
+	}
+}
+
+.bottomleft {
+    position: absolute;
+    font-size: 18px;
+    bottom: 8px;
+    left: 16px;
+}
+
+#apio:hover {opacity: 0.7;}
+#text {
+	display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+	
+}
