@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">	
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
+
+	 
+    <!--<link rel="stylesheet" href="css/reset.css"> CSS reset -->
+    <link href="css/style.css" rel="stylesheet" type="text/css"> <!-- Gem style -->
+
+    <!--<script src="js/modernizr.js"></script>  Modernizr -->
+    <link href="resources/css/indexCss.css" rel="stylesheet" type="text/css">
+    
+    <!-- JS files -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/main.js"></script> <!-- Gem jQuery -->
+    <script src="js/googleAnalytics.js"></script>
+
+  	<script>
+function myFunction() {
+    document.getElementById("donate").classList.toggle("w3-show");
+}
+</script>
+	<title>Apio</title>
+</head>
+<body>
+    <header id="header">
+	  <div id="cd-hamburger-menu"><a class="cd-img-replace" href="#0">Menu</a></div>
+      <div id="logo"><a href="index.html" ><img src="img/manzana.jpg" style="height:50px; width:50px;" alt="Logo"></a></div>
+	  <div id="cd-cart-trigger"></div>  
+        
+        <div id="Home-icon/logo" class="w3-third w3-container" >
+          <a href="#"><h1></h1></a>
+        </div>
+	</header>
+    
+    <div class="w3-container">
+    <div id="MediaNavigation">
+          <div id="twitter" style="float: left; ">
+          <a href="https://twitter.com/DIESELXP00" 
+          target="_blank" ><i class="fa fa-twitter fa-2x"></i></a></div>
+         
+          <div id="pinterest">
+          <a  href="https://www.pinterest.com/herbartcarcamoa/" target="_blank" ><i class="fa fa-pinterest fa-2x"
+           target="_blank"></i></a></div>
+           
+          <!--<div id="instagram">
+          <a  href="" target="_blank" ><i class="fa fa-instagram fa-2x" 
+          ></i></a></div>-->
+          
+          <div id="google">
+          <a  href="https://plus.google.com/u/2/102977685739246026050/posts" target="_blank" ><i class="fa fa-google-plus fa-2x" 
+          target="blank"></i></a></div>
+          
+          <div id="facebook">
+          <a  href="https://www.facebook.com/bebidasparaadelgazarrapido/" target="_blank" ><i class="fa fa-facebook fa-2x" 
+          target="_blank"></i></a></div>
+          
+          <div id="youtube" >
+          <a  href="https://www.youtube.com/channel/UCVXtP5C7LaAC6VmP6qvtHnQ" target="_blank" ><i class="fa fa-youtube fa-2x"></i></a></div>
+          
+          <div class="w3-dropdown-click donate" style="float: left;">
+          <button onclick="myFunction()" class="w3-btn" style="background-color: #1B51A5;color:white;border-radius: 20px;">Donate</button>
+
+  		<div id="donate" class="w3-dropdown-content w3-card-4" style="width:250px; padding-top: 10px;">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_donations">
+                  <input type="hidden" name="business" value="ernesto.afane2015@gmail.com">
+                  <input type="hidden" name="lc" value="US">
+                  <input type="hidden" name="item_name" value="Salud">
+                  <input type="hidden" name="no_note" value="0">
+                  <input type="hidden" name="currency_code" value="USD">
+                  <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+                  <input type="image" src="resources/donate.PNG" 
+                  border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              </form>
+    			
+   		  </div>
+		</div>             
+       </div> <!--end media navigation-->
+       </div>
+       
+       
+<!--<div class="w3-dropdown-click donate" >
+          <button onclick="myFunction()" class="w3-btn" style="background-color: #1B51A5;color:white;">Donate</button>
+
+  			<div id="donate" class="w3-dropdown-content w3-card-4" style="width:250px; padding-top: 10px;">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_donations">
+                  <input type="hidden" name="business" value="ernesto.afane2015@gmail.com">
+                  <input type="hidden" name="lc" value="US">
+                  <input type="hidden" name="item_name" value="Salud">
+                  <input type="hidden" name="no_note" value="0">
+                  <input type="hidden" name="currency_code" value="USD">
+                  <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+                  <input type="image" src="resources/donate.PNG" 
+                  border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              </form>
+    			
+   		  </div>
+		</div> -->          
+        <nav id="main-nav" class="main-nav">
+	    <ul id="link">
+                <li><a class="main-navUlA" href="index.html">Home</a></li>
+                <li><a class="main-navUlA" href="dietas.html">Dietas</a></li>
+                <li><a class="main-navUlA" href="recetas.html">Recetas</a></li>
+                <li><a class="main-navUlA" href="bebidas.html">Bebidas para Adelgazar</a></li>
+                <li><a class="main-navUlA" href="nutricion.html">Nutricion y Ejercicios</a></li>
+                <li><a class="main-navUlA" href="ContactForm2.html">Contact Us</a></li>
+
+            </ul>
+	</nav>
+    <!--This shadow layer is to be applied when the menu is open for mobile devices-->
+	<div id="cd-shadow-layer"></div>
+    
+    <!--This navigation bar is to be used for the computer and screen greater than 1024px-->
+    
+    <div class="w3-topnav w3-large w3-white navigationBigScreen w3-border w3-light-white" id="nav" style="padding-left:50px;border-bottom: black;">
+      <div style="width:1100px;margin: auto;">
+      <a href="index.html"  style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;"><i class="fa fa-home w3-large"></i></a>
+      <a href="dietas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:green;margin:auto">Dietas</a>
+      <a href="recetas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:orange;">Recetas</a>
+      <a href="bebidas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:teal">Bebidas para Adelgazar</a>
+      <a href="nutricion.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:#D23639;">Nutricion y Ejercicios</a>
+      </div>
+    </div>
+    
+    <div id="wrapper" class="w3-container" style="background-color: #FFFFFF"> 
+<h2><strong>Dieta del Cinco</strong></h2>
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/Q2LFfkEbE_8?list=PLHKsq4o1biJiDSbWrKlnJGgldPzEsmICl" frameborder="0" allowfullscreen></iframe>
+</div>
+<p>Puedes adelgazar una media de cinco kilos en un mes, reduciendo calorías, pero eso si, sin restar energía a nuestro organismo. Para seguirla, haz cinco comidas al día, y un desayuno de las cuales la más contundente debe ser el desayuno, y la menos, la cena. Mantenla cinco días a la semana,dejando libres el sábado y el domingo:<br><br>
+  <strong>Desayuno</strong>. Un vaso de leche descremada teñida con café o té y endulzada con edulcorante. Después, elige entre un minibocadillo de 50 gramos de pan y dos lonchas de jamón serrano, o tres biscotes integrales con aceite de oliva, o dos piezas medianas de fruta.<br><br>
+  <strong>Media mañana</strong>. Para picotear, puedes tomar una pieza de fruta, o un zumo natural, o un yogur desnatado edulcorado o 70 gramos de pavo o 50 gramos de queso fresco.<br><br>
+  <strong>Comida</strong>. Elige entre una ensalada variada y un cuarto trasero de pollo, o espinacas salteadas con jamón y patatas cocidas, o pasta con tomate y alcachofas, o judías verdes con un filete de ternera. De postre, apuesta por un tazón pequeño de macedonia de frutas o un café o té solo con edulcorante.<br><br>
+  <strong>Merienda</strong>. Para picotear a media tarde, una pieza de fruta mediana, o un yogur natural desnatado edulcorado, o 50 gramos de queso fresco, o una infusión con leche desnatada.<br>
+  Cena. Elige entre un buen plato de ensalada verde con un huevo duro o una latita de atún, o un lenguado con calabacines a la plancha, o un consomé y una tortilla de champiñón de un huevo. Para terminar, una pieza pequeña de fruta, o un yogur natural desnatado, o una infusión digestiva a base de hinojo, hierbaluisa o manzanilla.</p>
+<h3><strong>CINCO TRUCOS PARA RECUPERAR LA LINEA</strong></h3>
+<p>Para contornear los hombros, reafirmar los brazos y fortalecer el pecho, y cruza ambos brazos por detrás de la espalda. Si quieres afinar la cintura, estira alternativamente uno y otro brazo, apoyándote en el muslo del contrario y doblando las rodillas ligeramente. Busca una banda elástica, sujétala con los tobillos, y estira ambas piernas todo lo que puedas. Los muslos se fortalecerán más cuanto menos larga sea la banda.<br><br>
+  Sujétate una tobillera de un kilo de peso en cada tobillo y, eleva lentamente la pierna que se apoya sobre el suelo; así endurecerás la parte interna del muslo. Para endurecer el abdomen y fortalecer los muslos, sujeta un balón entre las rodillas y eleva el torso. El truco está en repetirlo lentamente y subir los hombros, no sólo el cuello.</p>
+ 
+    
+		</div>
+
+</body>
+</html>

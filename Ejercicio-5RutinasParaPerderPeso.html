@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">	
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
+
+	 
+    <!--<link rel="stylesheet" href="css/reset.css"> CSS reset -->
+    <link href="css/style.css" rel="stylesheet" type="text/css"> <!-- Gem style -->
+
+    <!--<script src="js/modernizr.js"></script>  Modernizr -->
+    <link href="resources/css/indexCss.css" rel="stylesheet" type="text/css">
+    
+    <!-- JS files -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/main.js"></script> <!-- Gem jQuery -->
+    <script src="js/googleAnalytics.js"></script>
+
+  	<script>
+function myFunction() {
+    document.getElementById("donate").classList.toggle("w3-show");
+}
+</script>
+	<title>Apio</title>
+</head>
+<body>
+    <header id="header">
+	  <div id="cd-hamburger-menu"><a class="cd-img-replace" href="#0">Menu</a></div>
+      <div id="logo"><a href="index.html" ><img src="img/manzana.jpg" style="height:50px; width:50px;" alt="Logo"></a></div>
+	  <div id="cd-cart-trigger"></div>  
+        
+        <div id="Home-icon/logo" class="w3-third w3-container" >
+          <a href="#"><h1></h1></a>
+        </div>
+	</header>
+    
+    <div class="w3-container">
+    <div id="MediaNavigation">
+          <div id="twitter" style="float: left; ">
+          <a href="https://twitter.com/DIESELXP00" 
+          target="_blank" ><i class="fa fa-twitter fa-2x"></i></a></div>
+         
+          <div id="pinterest">
+          <a  href="https://www.pinterest.com/herbartcarcamoa/" target="_blank" ><i class="fa fa-pinterest fa-2x"
+           target="_blank"></i></a></div>
+           
+          <!--<div id="instagram">
+          <a  href="" target="_blank" ><i class="fa fa-instagram fa-2x" 
+          ></i></a></div>-->
+          
+          <div id="google">
+          <a  href="https://plus.google.com/u/2/102977685739246026050/posts" target="_blank" ><i class="fa fa-google-plus fa-2x" 
+          target="blank"></i></a></div>
+          
+          <div id="facebook">
+          <a  href="https://www.facebook.com/bebidasparaadelgazarrapido/" target="_blank" ><i class="fa fa-facebook fa-2x" 
+          target="_blank"></i></a></div>
+          
+          <div id="youtube" >
+          <a  href="https://www.youtube.com/channel/UCVXtP5C7LaAC6VmP6qvtHnQ" target="_blank" ><i class="fa fa-youtube fa-2x"></i></a></div>
+          
+          <div class="w3-dropdown-click donate" style="float: left;">
+          <button onclick="myFunction()" class="w3-btn" style="background-color: #1B51A5;color:white;border-radius: 20px;">Donate</button>
+
+  		<div id="donate" class="w3-dropdown-content w3-card-4" style="width:250px; padding-top: 10px;">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_donations">
+                  <input type="hidden" name="business" value="ernesto.afane2015@gmail.com">
+                  <input type="hidden" name="lc" value="US">
+                  <input type="hidden" name="item_name" value="Salud">
+                  <input type="hidden" name="no_note" value="0">
+                  <input type="hidden" name="currency_code" value="USD">
+                  <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+                  <input type="image" src="resources/donate.PNG" 
+                  border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              </form>
+    			
+   		  </div>
+		</div>             
+       </div> <!--end media navigation-->
+       </div>
+       
+       
+<!--<div class="w3-dropdown-click donate" >
+          <button onclick="myFunction()" class="w3-btn" style="background-color: #1B51A5;color:white;">Donate</button>
+
+  			<div id="donate" class="w3-dropdown-content w3-card-4" style="width:250px; padding-top: 10px;">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_donations">
+                  <input type="hidden" name="business" value="ernesto.afane2015@gmail.com">
+                  <input type="hidden" name="lc" value="US">
+                  <input type="hidden" name="item_name" value="Salud">
+                  <input type="hidden" name="no_note" value="0">
+                  <input type="hidden" name="currency_code" value="USD">
+                  <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+                  <input type="image" src="resources/donate.PNG" 
+                  border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              </form>
+    			
+   		  </div>
+		</div> -->          
+        <nav id="main-nav" class="main-nav">
+	    <ul id="link">
+                <li><a class="main-navUlA" href="index.html">Home</a></li>
+                <li><a class="main-navUlA" href="dietas.html">Dietas</a></li>
+                <li><a class="main-navUlA" href="recetas.html">Recetas</a></li>
+                <li><a class="main-navUlA" href="bebidas.html">Bebidas para Adelgazar</a></li>
+                <li><a class="main-navUlA" href="nutricion.html">Nutricion y Ejercicios</a></li>
+                <li><a class="main-navUlA" href="ContactForm2.html">Contact Us</a></li>
+
+            </ul>
+	</nav>
+    <!--This shadow layer is to be applied when the menu is open for mobile devices-->
+	<div id="cd-shadow-layer"></div>
+    
+    <!--This navigation bar is to be used for the computer and screen greater than 1024px-->
+    
+    <div class="w3-topnav w3-large w3-white navigationBigScreen w3-border w3-light-white" id="nav" style="padding-left:50px;border-bottom: black;">
+      <div style="width:1100px;margin: auto;">
+      <a href="index.html"  style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;"><i class="fa fa-home w3-large"></i></a>
+      <a href="dietas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:green;margin:auto">Dietas</a>
+      <a href="recetas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:orange;">Recetas</a>
+      <a href="bebidas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:teal">Bebidas para Adelgazar</a>
+      <a href="nutricion.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:#D23639;">Nutricion y Ejercicios</a>
+      </div>
+    </div>
+    
+    <div id="wrapper" class="w3-container" style="background-color: #FFFFFF"> 
+<h2><strong>5 rutinas rápidas para perder peso</strong></h2>
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/UhFKSNRAFfQ?list=PLHKsq4o1biJikq8PbrRbRMh4hLQkhFI4F" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<p>Si definitivamente el tiempo es tu problema para entrenar, no te preocupes; afortunadamente existen rutinas a la medida de gente como tú, a las que literalmente no les da la vida para ir al gimnasio. Las siguientes 5 rutinas que te proponemos tienen varias ventajas: son rápidas de hacer, no requieres equipo especial, quemas grasa y calorías a puños, mejoras tu tono muscular y son bastante retadoras y divertidas. La clave está en enfocarse en &ldquo;movimientos compuestos&rdquo; que activan diferentes grupos musculares a la vez.<br><br>
+Necesitas un espacio que te permita moverte en tu lugar; puede ser en tu cuarto, sala, jardín o patio. Ponte un outfit cómodo y tenis. La idea es hacer &ldquo;5 sencillas rutinas&rdquo; continuas (una por día) y el sexto descansar; el séptimo puedes reposar también o aprovechar para hacer un poco de cardio (nadar, trotar, caminar, correr, andar en bici, bailar, etc).<br><br>
+Después de las primeras dos semanas intenta agregar intensidad a tus rutinas; ya sea que reduzcas el tiempo de descanso entre ejercicios y/o circuitos, o incrementes el número de repeticiones de cada ejercicio. Debes hacerlo de forma gradual siempre buscando reducir el tiempo que inviertes en cada rutina. Antes de iniciar calienta un poco y al finalizar estírate para que no quedes adolorida. Al principio realiza 3 series de 15 repeticiones por ejercicio, intentando dominar los movimientos. No olvides cuidar tu alimentación al máximo para obtener los mejores resultados.<br><br>
+  <h3>Rutinas caseras sencillas</h3>
+  <h3><strong>Rutina 1</strong></h3>
+a) Sentadilla-giro: mientras bajas la cadera, gira tu torso de un lado al otro exprimiéndolo al máximo; durante todo el movimiento mantén los brazos rígidos al frente y aprieta todo el cuerpo.<br><br>
+  b) Desplante-elevación brazo: desplanta una pierna atrás y eleva tus brazos encima de la cabeza (simulando que levantas una pesa) haciendo tensión en todo tu cuerpo; regresa y baja brazos para repetir todo mientras desplantas la otra pierna.<br><br>
+  <h3><strong>Rutina 2</strong></h3>
+a) Lagartija-hiperextensión: realiza una lagartija hasta quedar acostada boca abajo; extiende brazos al frente (superman); realiza una hiperextensión exprimiendo 3 segundos hombros, espalda, glúteos y piernas (contrae abdomen cuando arquees la espalda). Regresa de forma suave y realiza todo nuevamente.<br><br>
+  b) Plancha-tríceps: realiza una lagartija con los brazos pegados a tus costillas, regresa sin arquear la espalda, apoya un antebrazo en el piso y después el otro. Vuelve a la posición de plancha y repite todo el movimiento.<br><br>
+  <h3><strong>Rutina 3</strong></h3>
+a) Desplante-patada: parada con pies juntos, desplanta una pierna atrás lo más amplio posible, baja y al momento de regresar la pierna, manda con fuerza y control una patada al frente y arriba; regresa atrás la misma pierna para repetir todo el trabajo. Realiza tus repeticiones y cambia de pierna para hacer lo mismo.<br><br>
+  b) Plancha lateral - abducción pierna: acostada de lado con piernas juntas y extendidas, apoya el antebrazo para elevar tu cadera y mantenerte suspendida diagonalmente; mantén con fuerza la posición sin perder el equilibrio y eleva la pierna de arriba (abriendo una tijera). Regresa lentamente hasta juntarla con la de apoyo; realiza tu serie y cambia de lado para hacer con la otra pierna.<br><br>
+  <h3><strong>Rutina 4</strong></h3>
+a) Trote-elevación piernas: parada, realiza un trote enérgico en tu lugar, al mismo tiempo eleva piernas extendidas al frente. Es mportante que eleves lo más alto que puedas la pierna extendida y caigas en la punta del pie para cambiar la otra pierna; sincroniza tu braceo amplio para que involucres brazos, hombros y abdomen.<br><br>
+  b) Salto-sentadilla: de pie, salta arriba y en la caída absorbe el impacto con una sentadilla suave y profunda; sube con fuerza para realizar el siguiente salto y en la caída absorbe con otra sentadilla.<br><br>
+  <h3><strong>Rutina 5</strong></h3>
+a) Burpees: parada, salta con los brazos arriba y cae en sentadilla, pon tus manos en el piso y extiende en un sólo movimiento las piernas atrás para quedar en posición de plancha; realiza una lagartija y recoge de un brinco las piernas para quedar en cuclillas y saltar arriba nuevamente. Vuelve a hacer todo el movimiento.<br><br>
+b) Fondo-elevación cadera: sentada en el borde de una silla, cama o banca, apoya manos y extiende las piernas para realizar un fondo profundo; regresa y cuando tus brazos queden extendidos eleva tu cadera apretando glúteos y espalda baja; sostén un segundo y repite todo.</p>
+</div>
+</body>
+</html>

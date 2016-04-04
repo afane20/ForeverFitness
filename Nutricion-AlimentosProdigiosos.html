@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">	
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
+
+	 
+    <!--<link rel="stylesheet" href="css/reset.css"> CSS reset -->
+    <link href="css/style.css" rel="stylesheet" type="text/css"> <!-- Gem style -->
+
+    <!--<script src="js/modernizr.js"></script>  Modernizr -->
+    <link href="resources/css/indexCss.css" rel="stylesheet" type="text/css">
+    
+    <!-- JS files -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/main.js"></script> <!-- Gem jQuery -->
+    <script src="js/googleAnalytics.js"></script>
+
+  	<script>
+function myFunction() {
+    document.getElementById("donate").classList.toggle("w3-show");
+}
+</script>
+	<title>Alimentos Prodigiosos</title>
+</head>
+<body>
+    <header id="header">
+	  <div id="cd-hamburger-menu"><a class="cd-img-replace" href="#0">Menu</a></div>
+      <div id="logo"><a href="index.html" ><img src="img/manzana.jpg" style="height:50px; width:50px;" alt="Logo"></a></div>
+	  <div id="cd-cart-trigger"></div>  
+        
+        <div id="Home-icon/logo" class="w3-third w3-container" >
+          <a href="#"><h1></h1></a>
+        </div>
+	</header>
+    
+    <div class="w3-container">
+    <div id="MediaNavigation">
+          <div id="twitter" style="float: left; ">
+          <a href="https://twitter.com/DIESELXP00" 
+          target="_blank" ><i class="fa fa-twitter fa-2x"></i></a></div>
+         
+          <div id="pinterest">
+          <a  href="https://www.pinterest.com/herbartcarcamoa/" target="_blank" ><i class="fa fa-pinterest fa-2x"
+           target="_blank"></i></a></div>
+           
+          <!--<div id="instagram">
+          <a  href="" target="_blank" ><i class="fa fa-instagram fa-2x" 
+          ></i></a></div>-->
+          
+          <div id="google">
+          <a  href="https://plus.google.com/u/2/102977685739246026050/posts" target="_blank" ><i class="fa fa-google-plus fa-2x" 
+          target="blank"></i></a></div>
+          
+          <div id="facebook">
+          <a  href="https://www.facebook.com/bebidasparaadelgazarrapido/" target="_blank" ><i class="fa fa-facebook fa-2x" 
+          target="_blank"></i></a></div>
+          
+          <div id="youtube" >
+          <a  href="https://www.youtube.com/channel/UCVXtP5C7LaAC6VmP6qvtHnQ" target="_blank" ><i class="fa fa-youtube fa-2x"></i></a></div>
+          
+          <div class="w3-dropdown-click donate" style="float: left;">
+          <button onclick="myFunction()" class="w3-btn" style="background-color: #1B51A5;color:white;border-radius: 20px;">Donate</button>
+
+  		<div id="donate" class="w3-dropdown-content w3-card-4" style="width:250px; padding-top: 10px;">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_donations">
+                  <input type="hidden" name="business" value="ernesto.afane2015@gmail.com">
+                  <input type="hidden" name="lc" value="US">
+                  <input type="hidden" name="item_name" value="Salud">
+                  <input type="hidden" name="no_note" value="0">
+                  <input type="hidden" name="currency_code" value="USD">
+                  <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+                  <input type="image" src="resources/donate.PNG" 
+                  border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              </form>
+    			
+   		  </div>
+		</div>             
+       </div> <!--end media navigation-->
+       </div>
+       
+       
+<!--<div class="w3-dropdown-click donate" >
+          <button onclick="myFunction()" class="w3-btn" style="background-color: #1B51A5;color:white;">Donate</button>
+
+  			<div id="donate" class="w3-dropdown-content w3-card-4" style="width:250px; padding-top: 10px;">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_donations">
+                  <input type="hidden" name="business" value="ernesto.afane2015@gmail.com">
+                  <input type="hidden" name="lc" value="US">
+                  <input type="hidden" name="item_name" value="Salud">
+                  <input type="hidden" name="no_note" value="0">
+                  <input type="hidden" name="currency_code" value="USD">
+                  <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+                  <input type="image" src="resources/donate.PNG" 
+                  border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              </form>
+    			
+   		  </div>
+		</div> -->          
+        <nav id="main-nav" class="main-nav">
+	    <ul id="link">
+                <li><a class="main-navUlA" href="index.html">Home</a></li>
+                <li><a class="main-navUlA" href="dietas.html">Dietas</a></li>
+                <li><a class="main-navUlA" href="recetas.html">Recetas</a></li>
+                <li><a class="main-navUlA" href="bebidas.html">Bebidas para Adelgazar</a></li>
+                <li><a class="main-navUlA" href="nutricion.html">Nutricion y Ejercicios</a></li>
+                <li><a class="main-navUlA" href="ContactForm2.html">Contact Us</a></li>
+
+            </ul>
+	</nav>
+    <!--This shadow layer is to be applied when the menu is open for mobile devices-->
+	<div id="cd-shadow-layer"></div>
+    
+    <!--This navigation bar is to be used for the computer and screen greater than 1024px-->
+    
+    <div class="w3-topnav w3-large w3-white navigationBigScreen w3-border w3-light-white" id="nav" style="padding-left:50px;border-bottom: black;">
+      <div style="width:1100px;margin: auto;">
+      <a href="index.html"  style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;"><i class="fa fa-home w3-large"></i></a>
+      <a href="dietas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:green;margin:auto">Dietas</a>
+      <a href="recetas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:orange;">Recetas</a>
+      <a href="bebidas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:teal">Bebidas para Adelgazar</a>
+      <a href="nutricion.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:#D23639;">Nutricion y Ejercicios</a>
+      </div>
+    </div>
+    
+    <div id="wrapper" class="w3-container" style="background-color: #FFFFFF"> 
+    <h2><strong>Alimentos Prodigiosos</strong></h2>
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/ObMp9FJmiNo" frameborder="0" allowfullscreen></iframe></div>
+    
+<p>Ricos en nutrientes básicos y no siempre fáciles de encontrar como el ácido fólico, la  vitamina B o el betacaroteno, los siguientes alimentos fueron seleccionados por el site Health.com.<br>
+  <br>
+  1. <strong>MANZANAS</strong>: Contienen 4 gramos de fibra por porción, además de antioxidantes. la parte con más nutrientes es la piel, pero también aquella con mayor cantidad de pesticidas. Consúmelas orgánicas.</p>
+<p> 2. <strong>COLES DE BRUSELAS:</strong> Es una poderosa fuente de vitamina K y ácido fólico, además de contener hierro. Cocinadas correctamente tienen un sabor suave.</p>
+<p> 3. <strong>CHIRIVIA:</strong> Ricos en fibra y potasio, estos vegetales tienen un sabor dulce y delicioso.</p>
+<p> 4. <strong>PERAS:</strong> Son una buena fuente de vitamina C y cobre, y como las manzanas, tienen 4 gramos de fibra por porción. Dulces y deliciosas, cocínalas para aprovechar al máximo su sabor.</p>
+<p> 5. <strong>NABOS:</strong> Como otras raíces, son una buena fuente de vitamina C, y sus hojas contienen altos niveles de vitamina K, A y ácido fólico.</p>
+<p> 6.<strong> COLIFLOR:</strong> Es una excelente fuente de vitamina C, que ademas tiene compuestos que ayudan en la prevención del cáncer y a bajar los niveles del colesterol malo. </p>
+<p> 7. <strong>CALABACIN:</strong> Delicioso y versátil, destaca por ser una poderosa fuente de ácidos omega-3 y de vitamina A.</p>
+<p> 8. <strong>CALABAZA:</strong> Además de por su intenso sabor, que combina tanto en platos salados como en postres dulces, es una excelente fuente de fibras (más del 20% de la cantidad recomendada), de potasio y de la muy necesaria vitamina B. </p>
+<p> 9. <strong>BATATA:</strong> Este tubérculo tiene propiedades antiinflamatorias y es también una excelente fuente de vitamina A y hierro.</p>
+<p> 10. <strong>NABICOL:</strong> Este cruce entre nabo y repollo es una excente fuente de fibra y vitamina C. </p>
+<p> 11. <strong>GRANADA:</strong> Poderoso antioxidante, (se cree que más que el vino tiento), es una gran fuente de citamina C y ácido fólico. Se investigan sus propiedades anticancerígenas. </p>
+<p> 12. <strong>DATIL:</strong> Uno de los superalimentos más nutritivos, es una poderosa fuente de fibra y potasio, baja en grasa.</p>
+<p> 13. <strong>KIWI:</strong> Tiene más vitamina C que una naranja y es una gran fuente de potasio y cobre, además de ayudar al tracto digestivo.</p>
+<p> 14. <strong>POMELO O TORONJA:</strong> Tiene vitamina 'C' más del 75% de la cantidad recomendada, pecticina (sustancia que rebaja el colesterol malo) y licopeno (que tiene propiedades antiopxidantes).</p>
+<p> 15. <strong>MANDARINAS:</strong> No solo son ricas en vitamina C, sino en el apreciado betacaroteno, nutriente fundamental para la piel y la vista.</p>
+<p><strong><em>Recuerda que las vitaminas y minerales las encontramos en las frutas y verduras, entre mas organicas sean mucho mejor seran los beneficios.</em></strong></p>
+
+ 
+		</div>
+
+</body>
+</html>

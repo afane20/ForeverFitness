@@ -7,16 +7,26 @@
 
 
 #wrapper {
-	margin-right: 0%; 
-    margin-left: 0%;
+    margin-right: 0px; 
+    margin-left: 0px;
+    margin-top: 50px;
+    width:100%;
+    border-left: solid #D6D2D2 thick;
+    border-right: solid #D6D2D2 thick;
 }
 
+.width {
+	width:50%;
+}
 @media screen and (min-width: 1024px) {
 	#wrapper {
 		align-content: center; 
 		margin-right: 10%; 
 		margin-left: 10%;
-		width:1100px;margin: auto;
+		width:1100px;
+        margin: auto;
+        border-left: solid #D6D2D2 thin;
+        border-right: solid #D6D2D2 thin;
 
 	}
 }
@@ -31,7 +41,7 @@
 	  position:absolute;
 	  top: 30px;
 	  z-index:5;
-	  left: 475px;
+	  left: 550px;
   }
 }
 
@@ -210,17 +220,33 @@
 }
 
 .cardA {
-	height: 300px;
-	overflow:hidden;
+    height: 218px;
+    overflow:hidden;
     text-overflow:ellipsis;
+    margin-bottom: 10px;
+   
+}
+
+@media screen and (min-width: 1024px) {
+   .cardA {
+    height: 300px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    margin-bottom: 10px;
+   
+} 
+   
 }
 
 .cardB {
-	max-height: 130px;
+    height: 300px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    margin-bottom: 10px;
 }
 
 .cardBText {
-	white-space: nowrap; 
+    white-space: nowrap; 
     width: 25em;
     overflow: hidden;
     text-overflow: ellipsis; 
@@ -296,31 +322,32 @@
 
 #footer{
 	align-content:center;
-}
-#footer{
+        color: #CEE4EB;
 }
 
 #footerNavigation{
-	width:300px;
+    width:400px;
     margin: auto;
 }
+
 @media screen and (min-width: 1024px) {
 
 	#footerNavigation{
-		display:none
+		display:block;
 	}
 }
 
 .bottomleft {
     position: absolute;
-    font-size: 18px;
     bottom: 8px;
-    left: 16px;
+    left: 10px;
+    right: 10px;
+   
 }
 
 #apio:hover {opacity: 0.7;}
 #text {
-	display: block;
+    display: block;
     list-style-type: disc;
     margin-top: 1em;
     margin-bottom: 1 em;
@@ -329,3 +356,452 @@
     padding-left: 40px;
 	
 }
+
+.text {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+	
+}
+
+.textNumber {
+    display: block;
+    list-style-type: decimal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+.BigCard{
+  width: 150px;
+  height: 100px;
+  margin: 16px;
+  padding: 16px;
+}
+
+.category {
+  background:#FF806B;
+  border-radius:20px;
+  color:#FFFFFF;
+  display:inline-block;
+  font-weight:700;
+  margin-bottom:5px;
+  padding:6px 12px;
+  text-shadow:rgba(0, 0, 0, 0.2) 1px 1px 0;
+  text-transform:uppercase;
+  zoom:1;
+  font-size: 12px;
+ 
+}
+
+body{
+    font-family:'Open Sans', Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    margin: 0px;
+}
+
+.fontSize {
+    font-size: 14px;
+}
+
+.pTagModified {
+    display: block;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.VideoBox1 {
+    width:560px; 
+    height:315px;
+    float:left;
+    margin-right:20px;
+}
+
+@media screen and (min-width : 380px ){
+    .VideoBox1 {
+        margin-left: -30px;
+    }
+	.width {
+		width:100%;
+	}
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.videoWrapper img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.VideoFormatBigBox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 1024px){
+    .videoWrapper {
+    position: relative;
+    width:560px; 
+    height:315px;
+    float:right;
+    margin-right:20px;
+	margin-left:20px;
+	margin-bottom:20px;
+    padding-bottom: 0%; /* 16:9 */
+
+    }
+
+    .videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    }
+	.videoWrapper img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    }
+
+	.floatingDivision {
+        float:left;
+        width: 50%;
+    }
+
+}
+
+.leftCol {
+    width: 48%;
+    float: left;
+}
+.rightCol {
+    width: 48%;
+    float: right;
+}
+
+.border {
+    margin-bottom: 20px;
+}
+
+.imageSize {
+    width:100px;
+    height:100px;
+    float:left
+}
+
+.FirstDivision {
+    width: 100px;
+    height:100px;
+    float:left;
+}
+
+.SecondBlock{
+    width: 100px;
+    height:100px;
+    float:left;
+}
+
+.secondBlockFloat {
+    float:left;
+}
+
+.hr { 
+    display: block;
+}
+
+.floatingDivision {
+    float:none;
+}
+
+.SizeOfText {
+	margin-right:-80px;
+    font-size: 14px;
+    padding: -10px;
+    font-weight: 700;  
+}
+
+.boldness{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 480px){
+    .boldness{
+        font-weight: 700;
+        width: 200px;
+    }
+    .bigBoxWidth{
+        width: 10px;
+    }
+	
+	.Thefloat {
+		float:left;
+	}
+    .width {width:200px;}
+	.beGone{ display:none;}
+	.pTagModified{display:none;}
+	.hra {display:none;}
+}
+@media screen and (min-width: 480px){
+    .SizeOfText {
+        font-size: 14px;
+        padding: -10px;
+        font-weight: 700;
+        width: 310px;
+    }
+	
+	.beGone {
+		width:100%;
+	}
+}
+
+@media screen and (min-width: 768px){
+    .FirstDivision {
+        width: 50%;
+        height: 250px;
+        float:left;
+    }
+    .SecondBlock {
+        width:50%;
+        height: 250px;
+        float:right;
+    }
+    
+    .secondBlockFloat {
+        float:none;
+    }
+    .imageSize {
+        width:150px;
+        height:100px;
+        float:left
+    }
+    .hr { 
+        display: none;
+    }
+	.hraa{
+		display:block;
+	}
+
+    .floatingDivision {
+        float:left;
+        width: 100%;
+    }
+    
+    .SizeOfText {
+        font-size: 30px;
+        margin-bottom: -10px;
+        font-weight: 600;
+    }
+    
+    .boldness{
+        font-weight: 700;
+		width:700px;
+    }
+    
+    .bigBoxWidth{
+        width: 400px;
+    }
+	.beGone { width:300px;}
+    
+}
+
+.positionDeclaration {
+    position:relative;
+    left: 60px;
+    bottom: 37px;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.beGone {
+    display: block;
+}
+
+.bigBoxWidth{
+    width: 50px;
+}
+
+.Thefloat {
+    float: left;
+}
+
+.negativeMargin {
+}
+
+@media screen and (max-width: 320px) {
+	.widther {
+		width:200px;
+	}
+	.width {
+		width:150px;
+	}
+    .FirstDivision {
+        width: 60px;
+        height:60px;
+        float:left;
+    }
+    
+    .floatingDivision {
+        float:left;
+    }
+    
+    .imageSize {
+        width:60px;
+        height:60px;
+        float:left;
+    }
+    
+    .SecondBlock{
+        width: 60px;
+        height:60px;
+        float:left;
+    }
+    .SizeOfText {
+        font-size: 14px;
+        font-weight: 700;
+        float: right;
+		margin-left:0px;
+		margin-right:-100px;
+		width:200px;
+        
+    }
+    .beGone {
+        display: none;
+    }
+    .Thefloat {
+        float: left;
+		
+    }
+	.margins{
+		margin-left: 0px;
+		margin-right: -16px;
+	}
+    .boldness{
+        font-size: 14px;
+        font-weight: 700;
+        margin-left: 47px;
+    }
+	.negativeMargin {
+		margin-left:0px;
+		margin-right:20px;
+	}
+}
+
+@media screen and (max-width : 380px ){
+	.beGone {
+		display:none;
+	}
+	.boldness{
+        font-size: 14px;
+        font-weight: 700;
+        margin-left: 0px;
+        width: 140px;
+    }
+	.SizeOfText {
+		width:200px;
+	}
+	.somewidth {
+		width:200px;
+	}
+}
+
+.theMargin {
+	margin-left:-16px;
+	margin-right:-16px;	
+}
+
+
+@media screen and (min-width: 1024px) {
+	.somewidth{width:300px;}
+	.beGone{width:360px;}
+	.floatingDivision {
+		width:550px;
+	}
+	.hra{
+		display:block;
+	}
+	.SizeOfText {
+		width:450px;
+	}
+	.width{
+		width:100%;
+	}
+	
+}
+
+@media screen and (max-width: 320px) {
+  	.somewidth {
+	    width:200px;
+	}
+	.hr { 
+   	 	display: none;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.width {
+		width: 300px;
+	}
+	.boldness {
+		width:300px;
+	}
+}
+
+img {
+	height:100%;
+	width:100%;
+}
+
+@media screen and (max-width: 768px){
+	.pTagModified {display:none;}
+}
+.specialWidth{
+	width:px;
+}
+@media screen and (min-width: 480px){
+	.specialWidth{
+		width: 300px;
+	}
+}
+
+@media screen and (min-width: 640px){
+	.specialWidth{
+		width:480px;
+	}
+}
+@media screen and (min-width: 768px){
+	.specialWidth{
+		width: inherit;
+	}
+}
+

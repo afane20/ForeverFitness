@@ -1,19 +1,24 @@
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
    
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">	
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">	
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
 
-	 <!--<link rel="stylesheet" href="css/reset.css"> CSS reset -->
-	<link href="css/style.css" rel="stylesheet" type="text/css"> <!-- Gem style -->
-	<!--<script src="js/modernizr.js"></script>  Modernizr -->
+	 
+    <!--<link rel="stylesheet" href="css/reset.css"> CSS reset -->
+    <link href="css/style.css" rel="stylesheet" type="text/css"> <!-- Gem style -->
+
+    <!--<script src="js/modernizr.js"></script>  Modernizr -->
     <link href="resources/css/indexCss.css" rel="stylesheet" type="text/css">
+    
+    <!-- JS files -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="js/main.js"></script> <!-- Gem jQuery -->
+    <script src="js/main.js"></script> <!-- Gem jQuery -->
+    <script src="js/googleAnalytics.js"></script>
 
   	<script>
 function myFunction() {
@@ -22,9 +27,7 @@ function myFunction() {
 </script>
 	<title>Forever Fitness</title>
 </head>
-<body>
-<div> 
-</div>
+<body style="background-color:;">
     <header id="header">
 	  <div id="cd-hamburger-menu"><a class="cd-img-replace" href="#0">Menu</a></div>
       <div id="logo"><a href="index.html" ><img src="img/manzana.jpg" style="height:50px; width:50px;" alt="Logo"></a></div>
@@ -35,6 +38,7 @@ function myFunction() {
         </div>
 	</header>
     
+    <div class="w3-container">
     <div id="MediaNavigation">
           <div id="twitter" style="float: left; ">
           <a href="https://twitter.com/DIESELXP00" 
@@ -50,7 +54,7 @@ function myFunction() {
           
           <div id="google">
           <a  href="https://plus.google.com/u/2/102977685739246026050/posts" target="_blank" ><i class="fa fa-google-plus fa-2x" 
-          target="_blank"></i></a></div>
+          target="blank"></i></a></div>
           
           <div id="facebook">
           <a  href="https://www.facebook.com/bebidasparaadelgazarrapido/" target="_blank" ><i class="fa fa-facebook fa-2x" 
@@ -62,7 +66,7 @@ function myFunction() {
           <div class="w3-dropdown-click donate" style="float: left;">
           <button onclick="myFunction()" class="w3-btn" style="background-color: #1B51A5;color:white;border-radius: 20px;">Donate</button>
 
-  			<div id="donate" class="w3-dropdown-content w3-card-4" style="width:250px; padding-top: 10px;">
+  		<div id="donate" class="w3-dropdown-content w3-card-4" style="width:250px; padding-top: 10px;">
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
                   <input type="hidden" name="cmd" value="_donations">
                   <input type="hidden" name="business" value="ernesto.afane2015@gmail.com">
@@ -78,6 +82,8 @@ function myFunction() {
    		  </div>
 		</div>             
        </div> <!--end media navigation-->
+       </div>
+       
        
 <!--<div class="w3-dropdown-click donate" >
           <button onclick="myFunction()" class="w3-btn" style="background-color: #1B51A5;color:white;">Donate</button>
@@ -97,116 +103,352 @@ function myFunction() {
     			
    		  </div>
 		</div> -->          
-<nav id="main-nav" class="main-nav">
+        <nav id="main-nav" class="main-nav">
 	    <ul id="link">
-			<li><a id="" class="main-navUlA" href="#0">Home</a></li>
-			<li><a id="" class="main-navUlA" href="#0">Dietas</a></li>
-			<li><a id="" class="main-navUlA" href="#0">Recetas</a></li>
-			<li><a id="" class="main-navUlA" href="#0">Bebidas para Adelgazar</a></li>
-			<li><a id="" class="main-navUlA" href="#0">Nutricion y Ejercicios</a></li>
-		</ul>
+                <li><a class="main-navUlA" href="index.html">Home</a></li>
+                <li><a class="main-navUlA" href="dietas.html">Dietas</a></li>
+                <li><a class="main-navUlA" href="recetas.html">Recetas</a></li>
+                <li><a class="main-navUlA" href="bebidas.html">Bebidas para Adelgazar</a></li>
+                <li><a class="main-navUlA" href="nutricion.html">Nutricion y Ejercicios</a></li>
+                <li><a class="main-navUlA" href="ContactForm2.html">Contact Us</a></li>
+            </ul>
 	</nav>
     <!--This shadow layer is to be applied when the menu is open for mobile devices-->
 	<div id="cd-shadow-layer"></div>
     
     <!--This navigation bar is to be used for the computer and screen greater than 1024px-->
     
-    <div class="w3-topnav w3-large w3-white navigationBigScreen" id="nav" style="padding-left:50px;">
+    <div class="w3-topnav w3-large w3-white navigationBigScreen w3-border w3-light-white" id="nav" style="padding-left:50px;border-bottom: black;">
       <div style="width:1100px;margin: auto;">
       <a href="index.html"  style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;"><i class="fa fa-home w3-large"></i></a>
-      <a href="#" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:green;margin:auto">Dietas</a>
-      <a href="#" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:orange;">Recetas</a>
-      <a href="#" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:#00B395">Bebidas para Adelgazar</a>
-      <a href="#" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:#D23639;">Nutricion y Ejercicios</a>
-      </div>
-	</div>
-    
-<div id="wrapper" class="w3-container" style="">    
-    <div class="w3-row-padding w3-section">
-     <div class="w3-half" >
-      <div class="w3-card-2 cardA" style="position:relative">
-      		
-      		  	<img id="apio" src="img/apio1.jpg" style=" height:inherit; width:100%;" alt="apio">
-  				<div class="bottomleft">Propiedades del Apio
-                	<p style="font-size: 14px;">EL apio te puede ayudar a perder peso</p>
-                </div>
-        
+      <a href="dietas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:green;margin:auto">Dietas</a>
+      <a href="recetas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:orange;">Recetas</a>
+      <a href="bebidas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:teal">Bebidas para Adelgazar</a>
+      <a href="nutricion.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:#D23639;">Nutricion y Ejercicios</a>
       </div>
     </div>
     
-    <div class="w3-quarter" >
-      <div class="w3-card-2 cardA" style="position:relative">
+    <div id="wrapper" class="w3-container" style="background-color: #FFFFFF">    
+    <div class="w3-row-padding w3-section">
+        <div class="w3-half" >
+            <a href="apio.html"><div class="w3-card-2 cardA" style="position:relative">
       		
-      		  	<img id="apio" src="img/manzanilla.jpg" style=" height:inherit; width:100%;" alt="apio">
-  				<div class="bottomleft">Propiedades del Apio
-                	<p style="font-size: 14px;">EL apio te puede ayudar a perder peso</p>
+                <img id="apio" src="img/apio1.jpg" style=" height:inherit; width:100%;" alt="apio">
+                
+                <div class="bottomleft">
+                    <div class="category">Propiedades del Apio</div>
+                    <p class="fontSize pTagModified">EL apio te puede ayudar a perder peso</p>
                 </div>
+        
+                </div></a>
+        </div>
+    
+        <div class="w3-half" >
+            <a href="Nutricion-AlimentosProdigiosos.html"><div class="w3-card-2 cardA" style="position:relative">
+      		
+                <img id="apio" src="img/pomegrate2.png" style=" height:inherit; width:100%;" alt="apio">
+  		<div class="bottomleft">
+                    <div class="category">Alimentos Prodigiosos</div>
+                    <p class="fontSize pTagModified">Ricos en nutrientes básicos y no siempre fáciles de encontrar como el...<br>
+                    </p>
+  		</div>
       
-      </div>
-    </div>
-    
-    <div class="w3-quarter">
-      <div class="w3-card-2 cardA" style="position:relative">
-      		
-      		  	<img id="apio" src="img/pineapple_juice_s1.jpg" style=" height:inherit; width:100%;" alt="apio">
-  				<div class="bottomleft">Propiedades del Apio
-                	<p style="font-size: 14px;">EL apio te puede ayudar a perder peso</p>
-                </div>
-      </div>
-    </div>
-    </div>
+                </div></a>
+        </div>
+</div>
     
     <div class="w3-row-padding w3-section">
-    <div class="w3-quarter">
-      <div class="w3-card-2 cardA" style="position:relative">
-      		
-      		  	<img id="apio" src="img/remolacha1.jpg" style=" height:inherit; width:100%;" alt="apio">
-  				<div class="bottomleft">Propiedades del Apio
-                	<p style="font-size: 14px;">EL apio te puede ayudar a perder peso</p>
+        <div class="w3-quarter">
+            <a href="Bebidas-SumoDeZanahoria.html"><div class="w3-card-2 cardA" style="position:relative">
+
+                <img id="apio" src="img/zumoDeZanahoria.jpg" style="height:inherit; width:100%;" alt="apio">
+                <div class="bottomleft">
+                    <div class="category">Zumo de Zanahoria</div>
+                    <p class="fontSize pTagModified" style="color:white"><strong>Baja de peso bebiendo zumo de zanahoria</strong><br>
+                    </p>
                 </div>
-      </div>
-    </div>
+                </div></a>
+        </div>
     
-    <div class="w3-quarter">
-      <div class="w3-card-2 cardA" style="position:relative">
+        <div class="w3-quarter">
+            <a href="Recetas-5RicasEnsaladas.html"><div class="w3-card-2 cardA" style="position:relative">
+
+                <img id="apio" src="img/ensalada-verde-1280.jpg" style=" height:inherit; width:100%;" alt="apio">
+                <div class="bottomleft">
+                    <div class="category">5 Ricas Ensaladas</div>
+                    <p class="fontSize pTagModified">Las ensaladas son un excelente plato no solo para bajar de peso...</p>
+                </div>
+
+                </div></a>
+        </div>
+    
+        <div class="w3-quarter w3-margin-bottom" >
+            <a href="Ejercicio-MasaMuscular.html"><div class="w3-card-2 cardA" style="position:relative">
+
+                <img id="apio" src="img/Ejercicio-BrazosMusculo.jpg" style=" height:inherit; width:100%;" alt="Masa Muscular">
+                <div class="bottomleft">
+                    <div class="category"> Ganar masa muscular</div>
+                    <p class="fontSize pTagModified">Céntrate en los ejercicios complejos en lugar de los monoarticulares...</p>
+                </div>
+
+                </div></a>
+        </div>
+    
+        <div class="w3-quarter">
+            <a href="Ejercicio-RutinaParaEspalda.html"><div class="w3-card-2 cardA" style="position:relative">
       		
-      		  	<img id="apio" src="img/miel1.jpg" style=" height:inherit; width:100%;" alt="apio">
-  				<div class="bottomleft">Propiedades del Apio
-                	<p style="font-size: 14px;">EL apio te puede ayudar a perder peso</p>
+      		<img id="apio" src="img/Ejercicio-Espalda.jpg" style=" height:inherit; width:100%;" alt="apio">
+                <div class="bottomleft">
+                    <div class="category"> Rutina para la Espalda</div>
+                    <p class="fontSize pTagModified">A la mayoría de personas les gustaría eliminar grasa en áreas... </p>
                 </div>
         
-      </div>
+                </div></a>
+        </div>
+    
+    </div> <!--End of the navigation squares -->
+    
+    <div class="w3-row w3-pale-green w3-topbar w3-bottombar w3-border-green" style="margin-right: -16px;margin-left: -16px; margin-bottom: 20px">
+        <div class="w3-col w3-right w3-container w3-green" style="width:110px"><a href="Dietas.html">
+        <p><span style="color: white">Ver Mas </span><i class="fa fa-angle-double-right"></i></p></a>
+        </div>
+        <div class="w3-rest w3-container"><p><span style="color: green">Dietas</span></p></div>
+    </div>
+
+<div class="w3-container border theMargin">
+        <a href="Dietas-Papaya10DiasParaElAbdomen.html"><div class="w3-green w3-hover-shadow FirstDivision">
+        <img src="img/papaya1.jpeg" alt="Papaya Image"></div> </a>
+        <div class="w3-container Thefloat width"><a href="Dietas-Papaya10DiasParaElAbdomen.html">
+        <p class="SizeOfText">Dieta de la papaya de 10 días para aplanar el vientre y desinflamar el abdomen </p>
+        </a>
+          <p class="beGone">¿Quieres hacer una dieta muy efectiva para lucir un abdomen elegante estas fiestas? ...<br>
+          </p>
+        </div>
+
     </div>
     
-    <div class="w3-quarter w3-margin-bottom" >
-      <div class="w3-card-2 cardA" style="position:relative">
-      		
-      		  	<img id="apio" src="img/mb71fitness1.jpg" style=" height:inherit; width:100%;" alt="apio">
-  				<div class="bottomleft">Propiedades del Apio
-                	<p style="font-size: 14px;">EL apio te puede ayudar a perder peso</p>
-                </div>
+    <hr class="hr">
+    <hr class="hra">
+
+    <div class="w3-container" style="margin-left: -16px;">
+        <div class="w3-container border floatingDivision theMargin" >
+            <a href="Dietas-7AlimentosParaQuemarGrasa.html"> <div class="w3-green w3-hover-shadow imageSize"><img src="img/Dietas-pollo.jpg">
+            </div> </a>
+          <div class="w3-container Thefloat width" style="float:left"><a href="Dietas-7AlimentosParaQuemarGrasa.html">
+            <p class="boldness">7 Alimentos que ayudan a quemar grasa </p>
+          </a>
+            <p class="beGone">No importa la edad que tengas, es seguro que querrás que tu vientre sea más...</p>
+          </div>
+        </div>
         
-      </div>
-    </div>
+    <hr class="hr"> <!---->
     
-    <div class="w3-quarter">
-      <div class="w3-card-2 cardA" id="cardB" style="position:relative">
-      		
-      		  	<img id="apio" src="img/las-manzanas.jpg" style=" height:inherit; width:100%;" alt="apio">
-  				<div class="bottomleft">Propiedades del Apio
-                	<p style="font-size: 14px;">EL apio te puede ayudar a perder peso</p>
-                </div>
+        <div class="w3-container border floatingDivision theMargin">
+            <a href="Dietas-DietaDeCinco.html"> <div class="w3-green w3-hover-shadow w3-center imageSize"> 
+            <img src="img/dietas-baja-en-grasa-guatevision1.jpg" alt="Dieta del Cinco">
+            </div> </a>
+            
+            <div class="w3-container Thefloat width"><a href="Dietas-DietaDeCinco.html">
+            <p class="boldness somewidth">Dieta del Cinco<br>
+              </p>
+            </a>
+              <p class="beGone">Puedes adelgazar una media de cinco kilos en un mes, reduciendo calorías, pero eso si, sin restar energía...<br>
+              </p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+<div class="w3-row w3-topbar w3-bottombar w3-border-orange" style="margin-right: -16px;margin-left: -16px; margin-bottom: 20px;background-color: #FFEFBF;">
+      <div class="w3-col w3-right w3-container w3-orange" style="width:110px"><a href="Recetas.html"><span style="color: white"><p>Ver Mas <i class="fa fa-angle-double-right"></i></p></span></a>
+        </div>
+        <div class="w3-rest w3-container"><p><span style="color: orange">Recetas</span></p></div>
+    </div>
+   
+   
+   <div class="w3-container border theMargin">
+        <a href="Recetas-BebidasDesintoxicantes.html"> <div class="w3-green w3-hover-shadow FirstDivision">
+     <img src="img/Bebidas-Desintoxicantes.jpg" alt="Bebidas Desintoxicantes"></div> </a>
+        <div class="w3-container Thefloat width" ><a href="Recetas-BebidasDesintoxicantes.html">
+          <p class="SizeOfText">Recetas de bebidas Desintoxicantes<br>
+          </p>
+        </a>
+          <p class="beGone">Sabemos que es recomendable tomar dos litros de agua al día. Pero muchas veces este puede ser un trabajo bastante difícil. En este video te vamos a compartir algunas recetas que cambiaran tu manera de pensar, acerca de el beber agua.</p>
+        </div>
+
+    </div>
+    <hr class="hra">
+    
+    <div class="w3-container border floatingDivision theMargin">
+            <a href="Recetas-PinaYApio.html"> <div class="w3-green w3-hover-shadow imageSize"> <img src="img/apio.jpg" alt="Apio, Pina">
+            </div> </a>
+          <div class="w3-container Thefloat width"><a href="Recetas-PinaYApio.html">
+          <p class="boldness" style="width:100%">Receta De Licuado De Piña Y Apio Para Adelgazar<br>
+            </p>
+          </a>
+            <p class="beGone">Uno de los problemas más comunes hoy en día es obesidad, si estas interesado en bajar de peso ...</p>
+          </div>
+        </div>
         
+    <hr class="hr">
+<div class="w3-container border floatingDivision theMargin">
+      <a href="Recetas-PlatanosPina.html"> <div class="w3-green w3-hover-shadow w3-center imageSize"> 
+            <img src="img/Batido-de-plátano-banana.jpg" alt="Pina, Platano"> </div> </a>
+            
+            <div class="w3-container Thefloat width"><a href="Recetas-PlatanosPina.html">
+            <p class="boldness">Receta Licuado de Plátano para Adelgazar y Perder Peso</p>
+            </a>
+              <p class="beGone">El plátano, originario del Asia tropical, probablemente de la India. es un árbol robusto de rizoma carnoso...</p>
+            </div>
+
+        </div>
+        
+<div class="w3-container theMargin" style="margin-left: -16px;">
+  <div class="w3-container border floatingDivision theMargin">
+        <a href="#">  </a>
       </div>
+</div>
+    
+    
+    <div class="w3-row w3-topbar w3-bottombar w3-border-teal" style="margin-right: -16px;margin-left: -16px; margin-bottom: 20px;background-color: #cee2e3;">
+        <div class="w3-col w3-right w3-container w3-teal" style="width:110px"><a href="Bebidas.html"><p>Ver Mas <i class="fa fa-angle-double-right"></i></p></a>
+        </div>
+        <div class="w3-rest w3-container"><p><span style="color: teal">Bebidas para Adelgazar</span></p></div>
     </div>
     
+    <div class="w3-container border theMargin">
+        <a href="Bebidas-JugoVerde.html"> <div class="w3-green w3-hover-shadow FirstDivision">
+         <img src="img/02jugoverde2.jpg" alt="Image de jugo Verde"> </div> </a>
+         
+        <div class="w3-container Thefloat width" ><a href="Bebidas-JugoVerde.html">
+        <p class="SizeOfText">Bajar de Peso con Jugo Verde<br>
+          </p>
+        </a>
+          <p class="beGone">Te has preguntado alguna vez: ¿Porque Sufres de poca energía durante el día? Te sientes inflamado; con extra peso, super cansado e irritado. Todos estos sintomas son debido a mala alimentacion.&nbsp;Si Deseas adelgazar, sentirte bien y con mas energia. Aqui te presentamos El Fabuloso "Jugo Verde"<br>
+          </p>
+        </div>
+
     </div>
-    <div class="w3-container w3-teal">
-   <h2 style="border-bottom: thick solid #DCFFFA;=">Articulo Reciente</h2>
+    <hr class="hr">
+    <hr class="hra">
+
+    <div class="w3-container" style="margin-left: -16px;">
+        <div class="w3-container border floatingDivision theMargin">
+            <a href="Bebidas-jengibre.html"> <div class="w3-green w3-hover-shadow w3-center imageSize"> 
+            <img src="img/Bebidas-ginger.jpg" alt="Bebida de jengibre, Ginger drink"></div> </a>
+            
+            <div class="w3-container Thefloat width" > <a href="Bebidas-jengibre.html">
+            <p class="boldness somewidth">Té de jengibre para perder peso</p>
+            </a>
+              <p class="beGone">El jengibre tiene más beneficios de los que te imaginas, y tomarlo en té ayuda a bajar de peso...</p>
+            </div>
+
+        </div>
+    <hr class="hr">
+        <div class="w3-container border floatingDivision theMargin">
+            <a href="Bebidas-LicuadoDeRepollo.html"> <div class="w3-green w3-hover-shadow w3-center imageSize">
+            <img src="img/zumo-de-hojas.jpg" alt="Repollo"> </div> </a>
+            
+            <div class="w3-container Thefloat width"><a href="Bebidas-LicuadoDeRepollo.html">
+            <p class="boldness somewidth">Licuado de Repollo</p>
+            </a>
+              <p class="beGone">Si sufres de úlceras estomacales, considera agregar júgo de repollo a tu dieta. El júgo de repollo contiene...</p>
+            </div>
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="w3-row w3-pale-red w3-topbar w3-bottombar w3-border-red" style="margin-right: -16px;margin-left: -16px; margin-bottom: 20px">
+        <div class="w3-col w3-right w3-container w3-red" style="width:110px"><a href="nutricion.html"><p><span style="color:white">Ver Mas </span><i class="fa fa-angle-double-right"></i></p></a>
+        </div>
+        <div class="w3-rest w3-container"><p style="color: red">Nutricion y Ejercicios</p></div>
+    </div>
+    
+        <div class="w3-container border theMargin">
+            <a href="Nutricion-VitaminaA.html"> <div class="w3-green w3-hover-shadow FirstDivision"> 
+            <img src="img/zanahorias1.jpg" alt="Zanahoria" ></div> </a>
+            
+            <div class="w3-container Thefloat margins width"><a href="Nutricion-VitaminaA.html">
+            <p class="SizeOfText">VITAMINA 'A'</p>
+            </a>
+              <p class="beGone">La vitamina A ayuda a la formación y mantenimiento de dientes, tejidos óseos y blandos, membranas mucosas y piel sanos.&nbsp;Algunos productos que contienen vitamina A son: Frutas de color oscuro...<br>
+              </p>
+            </div>
+
+        </div>
+    <hr class="hr">
+    <hr class="hra">
+
+    <div class="w3-container" style="margin-left: -16px;">
+    <div class="w3-container border floatingDivision theMargin">
+        <a href="Ejercicio-5RutinasParaPerderPeso.html"> <div class="w3-green w3-hover-shadow w3-center imageSize"> 
+        <img src="img/fitness1.jpg" alt="Fitness Pciture"></div> </a>
+        
+        <div class="w3-container Thefloat width"><a href="Ejercicio-5RutinasParaPerderPeso.html">
+          <p class="boldness somewidth">5 rutinas rápidas para perder peso<br>
+          </p>
+        </a>
+          <p class="beGone">Si definitivamente el tiempo es tu problema para entrenar, no te preocupes...<br>
+          </p>
+        </div>
+
+    </div>
+    <hr class="hr">
+    <div class="w3-container border floatingDivision theMargin">
+        <a href="Ejercicio-Caminar30MinutosDiarios.html"> <div class="w3-green w3-hover-shadow imageSize">
+        <img src="img/walking1.jpg"></div> </a>
+        
+        <div class="w3-container Thefloat width"><a href="Ejercicio-Caminar30MinutosDiarios.html">
+        <p class="boldness somewidth">Beneficios de caminar 30 minutos diarios<br>
+          </p>
+        </a>
+          <p class="beGone">Una actividad tan sencilla como caminar puede mejorar muchos aspectos de nuestra vida, desde...</p>
+        </div>
+
+    </div>
+    </div>
+    <hr class="hr">
+    <div class="w3-container" style="margin-left: -16px;">
+    <div class="w3-container border floatingDivision theMargin">
+        <a href="Nutricion-Rinones.html"> <div class="w3-green w3-hover-shadow w3-center imageSize">
+        <img src="img/Nutricion-Rinon.jpg" alt="Kidne Picture"></div> </a>
+        
+        <div class="w3-container Thefloat width"><a href="Nutricion-Rinones.html">
+        <p class="boldness somewidth">Habitos para cuidar tus Riñones</p>
+        </a>
+          <p class="beGone">Los riñones son un par de órganos vitales que realizan varias funciones para mantener la sangre...</p>
+        </div>
+
+    </div>
+    <hr class="hr">
+    <div class="w3-container border floatingDivision theMargin">
+        <a href="Nutricion-AlimentosConservarseJoven.html"> <div class="w3-green w3-hover-shadow imageSize">
+        <img src="img/joven1.jpg" alt="Young Picture, foto de joven"></div> </a>
+        
+        <div class="w3-container Thefloat width"><a href="Nutricion-AlimentosConservarseJoven.html">
+        <p class="boldness somewidth">Super Alimentos para Conservarse Joven</p>
+        </a>
+          <p class="beGone">¿Sabías que hay algunos Super-Alimentos de la belleza que son mucho más efectivos que...</p>
+        </div>
+
+    </div>
+    </div>
+    
+
+    <hr class="hr">
+
+
+
+<div class="w3-container w3-white">
+  <h2 style="border-bottom: thick solid #DCFFFA;">Articulo Reciente</h2>
    <h3>La Canela</h3>
    
-   <div style="width:560px; height:315px;float:left;margin-right:20px;">
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/PrdefHB-ifY" frameborder="0" allowfullscreen></iframe></div>
+   <div class="videoWrapper">
+   <iframe src="https://www.youtube.com/embed/PrdefHB-ifY" frameborder="0" allowfullscreen></iframe></div>
    <p>Sabemos que es un alimento completo con múltiples propiedades terapéuticas pero, ¿sabías que también sirve para bajar de peso?<br><br>
 
 Por lo regular utilizamos la miel en remedios caseros para eliminar tos, ronquera y dolor de garganta; para aliviar contusiones (heridas, golpes, torceduras y grietas en los pezones de madres con lactantes); para suavizar la piel, disminuir cicatrices, arrugas, estrías y celulitis; como depurador de la sangre, revitalizado y tónico para el cerebro.<br><br>
@@ -229,7 +471,7 @@ Sin embargo, para que la dieta funcione, sería necesario eliminar por completo 
 
 ¿Cómo va la dieta?<br><br>
 
-Los ingredientes son muy sencillos, necesitas agua caliente, miel y canela en polvo. Pon a hervir un vaso con agua y agrega una cucharadita de miel y canela en polvo. Toma la infusión antes de dormir y media hora antes del desayuno. Según los autores de esta dieta debes tomar en cuenta las siguientes recomendaciones:<br><br>
+Los ingredientes son muy sencillos, necesitas agua caliente, miel y canela en polvo. Pon a hervir un vaso con agua y agrega una cucharadita de miel y canela en polvo. Toma la infusión antes de dormir y media hora antes del desayuno. Según los autores de esta dieta debes tomar en cuenta las siguientes recomendaciones:</p>
 
 <ul id="text">
 	<li>Cambia todo el azúcar y edulcorantes por miel.</li>
@@ -239,38 +481,54 @@ Los ingredientes son muy sencillos, necesitas agua caliente, miel y canela en po
 <li>Incorpora, frutas y verduras en tu alimentación. </li>
 <li>Evita productos light.</li>
 </ul>
-
-Aunque no existe evidencia científica de que esta dieta funcione muchas personas aseguran que con la dieta han visto disminuida su ansiedad. Quizá pueda deberse al efecto placebo.<br><br></p>
+ <p>
+Aunque no existe evidencia científica de que esta dieta funcione muchas personas aseguran que con la dieta han visto disminuida su ansiedad. Quizá pueda deberse al efecto placebo.<br><br>
+</p>
    
-   </div>
-   </div> <!--Wrapper div-->
-   
-   <footer class="w3-container" id="footer">
-   
-   <div id="footerNavigation" style="">
-     <div id="twitter" style="float: left; ">
-          <a href="http://www.w3schools.com/w3css/w3css_responsive.asp" 
-          target="_blank" ><i class="fa fa-twitter fa-2x"></i></a></div>
-         
-          <div id="pinterest">
-          <a  href="" target="_blank" ><i class="fa fa-pinterest fa-2x"
-           target="_blank"></i></a></div>
-           
-          <div id="instagram">
-          <a  href="" target="_blank" ><i class="fa fa-instagram fa-2x" 
-          ></i></a></div>
-          
-          <div id="google">
-          <a  href="" target="_blank" ><i class="fa fa-google-plus fa-2x" 
-          target="_blank"></i></a></div>
-          
-          <div id="facebook">
+ </div>   
+   </div>   <!--The wrapper-->   
+  
+   <div class="w3-container" style="background-color: #E6E6E6;margin-top:0px;">
+   <div class="w3-container w3-third">
+   		<div id="twitter" style="float: left; ">
+                <a href="http://www.w3schools.com/w3css/w3css_responsive.asp" 
+                target="_blank" ><i class="fa fa-twitter fa-2x"></i></a></div>
+                
+                <div id="pinterest">
+                <a  href="" target="_blank" ><i class="fa fa-pinterest fa-2x"
+                target="_blank"></i></a></div>
+                
+                <div id="instagram">
+            <a  href="" target="_blank" ><i class="fa fa-instagram fa-2x" 
+            ></i></a></div>
+            
+            <div id="google">
+            <a  href="" target="_blank" ><i class="fa fa-google-plus fa-2x" 
+            target="_blank"></i></a></div>
+            
+            <div id="facebook">
           <a  href="" target="_blank" ><i class="fa fa-facebook fa-2x" 
           target="_blank"></i></a></div>
           
           <div id="youtube" >
           <a  href="" target="_blank" ><i class="fa fa-youtube fa-2x"></i></a></div>
-         </div> <!--end media navigation-->
-       </footer>        
+          </div>
+            <div class="w3-third w3-container">
+              <h3>Articulos Recientes</h3>
+              <ul id="text">
+              	<li>Forever Fitness <span style="color:#1F4391">TV</span></li>                
+              </ul> 
+            </div>
+            
+            <div class="w3-third w3-container">
+              <h3>Otros</h3>
+              <ul id="text2">
+                <li><a href="ContactForm2.html" style="color:#D23639;">Contact Us</a></li>
+              </ul>
+              
+            
+            </div>
+       </div> <!--The end of the footer-->  
+     
 </body>
 </html>

@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">	
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
+
+	 
+    <!--<link rel="stylesheet" href="css/reset.css"> CSS reset -->
+    <link href="css/style.css" rel="stylesheet" type="text/css"> <!-- Gem style -->
+
+    <!--<script src="js/modernizr.js"></script>  Modernizr -->
+    <link href="resources/css/indexCss.css" rel="stylesheet" type="text/css">
+    
+    <!-- JS files -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/main.js"></script> <!-- Gem jQuery -->
+    <script src="js/googleAnalytics.js"></script>
+
+  	<script>
+function myFunction() {
+    document.getElementById("donate").classList.toggle("w3-show");
+}
+</script>
+	<title>Ensaladas</title>
+</head>
+<body>
+    <header id="header">
+	  <div id="cd-hamburger-menu"><a class="cd-img-replace" href="#0">Menu</a></div>
+      <div id="logo"><a href="index.html" ><img src="img/manzana.jpg" style="height:50px; width:50px;" alt="Logo"></a></div>
+	  <div id="cd-cart-trigger"></div>  
+        
+        <div id="Home-icon/logo" class="w3-third w3-container" >
+          <a href="#"><h1></h1></a>
+        </div>
+	</header>
+    
+    <div class="w3-container">
+    <div id="MediaNavigation">
+          <div id="twitter" style="float: left; ">
+          <a href="https://twitter.com/DIESELXP00" 
+          target="_blank" ><i class="fa fa-twitter fa-2x"></i></a></div>
+         
+          <div id="pinterest">
+          <a  href="https://www.pinterest.com/herbartcarcamoa/" target="_blank" ><i class="fa fa-pinterest fa-2x"
+           target="_blank"></i></a></div>
+           
+          <!--<div id="instagram">
+          <a  href="" target="_blank" ><i class="fa fa-instagram fa-2x" 
+          ></i></a></div>-->
+          
+          <div id="google">
+          <a  href="https://plus.google.com/u/2/102977685739246026050/posts" target="_blank" ><i class="fa fa-google-plus fa-2x" 
+          target="blank"></i></a></div>
+          
+          <div id="facebook">
+          <a  href="https://www.facebook.com/bebidasparaadelgazarrapido/" target="_blank" ><i class="fa fa-facebook fa-2x" 
+          target="_blank"></i></a></div>
+          
+          <div id="youtube" >
+          <a  href="https://www.youtube.com/channel/UCVXtP5C7LaAC6VmP6qvtHnQ" target="_blank" ><i class="fa fa-youtube fa-2x"></i></a></div>
+          
+          <div class="w3-dropdown-click donate" style="float: left;">
+          <button onclick="myFunction()" class="w3-btn" style="background-color: #1B51A5;color:white;border-radius: 20px;">Donate</button>
+
+  		<div id="donate" class="w3-dropdown-content w3-card-4" style="width:250px; padding-top: 10px;">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_donations">
+                  <input type="hidden" name="business" value="ernesto.afane2015@gmail.com">
+                  <input type="hidden" name="lc" value="US">
+                  <input type="hidden" name="item_name" value="Salud">
+                  <input type="hidden" name="no_note" value="0">
+                  <input type="hidden" name="currency_code" value="USD">
+                  <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+                  <input type="image" src="resources/donate.PNG" 
+                  border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              </form>
+    			
+   		  </div>
+		</div>             
+       </div> <!--end media navigation-->
+       </div>
+       
+       
+<!--<div class="w3-dropdown-click donate" >
+          <button onclick="myFunction()" class="w3-btn" style="background-color: #1B51A5;color:white;">Donate</button>
+
+  			<div id="donate" class="w3-dropdown-content w3-card-4" style="width:250px; padding-top: 10px;">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_donations">
+                  <input type="hidden" name="business" value="ernesto.afane2015@gmail.com">
+                  <input type="hidden" name="lc" value="US">
+                  <input type="hidden" name="item_name" value="Salud">
+                  <input type="hidden" name="no_note" value="0">
+                  <input type="hidden" name="currency_code" value="USD">
+                  <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+                  <input type="image" src="resources/donate.PNG" 
+                  border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              </form>
+    			
+   		  </div>
+		</div> -->          
+        <nav id="main-nav" class="main-nav">
+	    <ul id="link">
+                <li><a class="main-navUlA" href="index.html">Home</a></li>
+                <li><a class="main-navUlA" href="dietas.html">Dietas</a></li>
+                <li><a class="main-navUlA" href="recetas.html">Recetas</a></li>
+                <li><a class="main-navUlA" href="bebidas.html">Bebidas para Adelgazar</a></li>
+                <li><a class="main-navUlA" href="nutricion.html">Nutricion y Ejercicios</a></li>
+                <li><a class="main-navUlA" href="ContactForm2.html">Contact Us</a></li>
+
+            </ul>
+	</nav>
+    <!--This shadow layer is to be applied when the menu is open for mobile devices-->
+	<div id="cd-shadow-layer"></div>
+    
+    <!--This navigation bar is to be used for the computer and screen greater than 1024px-->
+    
+    <div class="w3-topnav w3-large w3-white navigationBigScreen w3-border w3-light-white" id="nav" style="padding-left:50px;border-bottom: black;">
+      <div style="width:1100px;margin: auto;">
+      <a href="index.html"  style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;"><i class="fa fa-home w3-large"></i></a>
+      <a href="dietas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:green;margin:auto">Dietas</a>
+      <a href="recetas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:orange;">Recetas</a>
+      <a href="bebidas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:teal">Bebidas para Adelgazar</a>
+      <a href="nutricion.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:#D23639;">Nutricion y Ejercicios</a>
+      </div>
+    </div>
+    
+    <div id="wrapper" class="w3-container" style="background-color: #FFFFFF"> 
+<h2><strong>5 Ricas Ensaladas Para Perder Peso y Adelgazar Rápidamente</strong></h2>
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/ZV2gmuJeU9g" frameborder="0" allowfullscreen></iframe></div>
+    
+
+<p>Las ensaladas son un excelente plato no solo para bajar de peso sino que aportan las vitaminas y nutrientes que tu organismo necesita. Si estás buscando una forma saludable, sin dudas, las recetas de las más variadas ensaladas son lo mejor que puedes ingerir.<br>
+  <br>
+  <strong> Te presentamos algunas recetas simples y muy ricas para que empieces tu dieta con lo mejor que hay en la cocina: las verduras y vegetales.</strong></p>
+<p> 1 – <strong>ENSALADA VERDE</strong> dietética: se trata de una de las ensaladas más rápidas de hacer. Además es muy nutritiva y perfecta para bajar de peso ya que posee bajo valor calórico. La puedes preparar con variedad de lechugas combinadas con pimentón, apio manzana verde aderezada con 1 cucharita de aceite de oliva, limón, sal y hierbas aromáticas, como el eneldo, perejil, orégano, albahaca. </p>
+<p> 2.-<strong>ENSALADA PROTEICA</strong>: Es una combinación de sabores, podemos mezclar vegetales como lechugas, tomates, zanahorias, brócoli, coliflor, pepinos con ingredientes proteicos (pollo), huevo, queso, nueces y yogur. Esto convierte a la ensalada en un plato nutritivo., rico en proteínas y bien combinado que se puede convertir en una cena ligera, pero muy saludable. Disfrútala!</p>
+<p> 3.-<strong>ENSALADA ENERGETICA</strong>: Combinar los vegetales con pasta, papa o porotos es la manera idónea de convertir una ligera ensalada en un plato energético, además de nutritivo. Ideal para personas que hacen deporte y que necesitan mayor aporte calórico.</p>
+<p> 4- <strong>ENSALADA DE REPOLLO</strong> blanco y morado: Excelente combinación y van muy bien en dietas para bajar de peso. Aderézala con jugo de limón o vinagre y disfruta de una riquísima ensalada fresca y nutritiva.</p>
+<p> 5- <strong>ENSALADA DE ZANAHORIA Y REMOLACHA</strong>: si además de bajar de peso y del aporte energético que te puede brindar esas combinaciones de verduras y legumbres también puede hacer beneficios a tu piel ¿por qué no? Si comes ensaladas durante todo el año, al llegar el verano tu piel logrará el color con muy poco sol.<br>
+  Para bajar de peso, además de una dieta equilibrada y rica en ensaladas, es necesario ingerir también otros alimentos. Recuerda que las ensaladas son una guarnición y no siempre pueden ser el plato principal y único de una dieta. Además, la práctica regular de ejercicios físicos deben ser los aliados en esta tarea. Una caminata diaria de 30 minutos también ayudarán en el proceso y mucho más rápido lograrás tus objetivos.</p>
+<p><strong><em> Otro factor importante y que no puede ser olvidado es la ingesta de agua, al menos dos litros por día.</em></strong></p>
+
+
+ 
+		</div>
+</body>
+</html>

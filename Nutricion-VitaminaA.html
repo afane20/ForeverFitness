@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">	
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
+
+	 
+    <!--<link rel="stylesheet" href="css/reset.css"> CSS reset -->
+    <link href="css/style.css" rel="stylesheet" type="text/css"> <!-- Gem style -->
+
+    <!--<script src="js/modernizr.js"></script>  Modernizr -->
+    <link href="resources/css/indexCss.css" rel="stylesheet" type="text/css">
+    
+    <!-- JS files -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/main.js"></script> <!-- Gem jQuery -->
+    <script src="js/googleAnalytics.js"></script>
+
+  	<script>
+function myFunction() {
+    document.getElementById("donate").classList.toggle("w3-show");
+}
+</script>
+	<title>Apio</title>
+</head>
+<body>
+    <header id="header">
+	  <div id="cd-hamburger-menu"><a class="cd-img-replace" href="#0">Menu</a></div>
+      <div id="logo"><a href="index.html" ><img src="img/manzana.jpg" style="height:50px; width:50px;" alt="Logo"></a></div>
+	  <div id="cd-cart-trigger"></div>  
+        
+        <div id="Home-icon/logo" class="w3-third w3-container" >
+          <a href="#"><h1></h1></a>
+        </div>
+	</header>
+    
+    <div class="w3-container">
+    <div id="MediaNavigation">
+          <div id="twitter" style="float: left; ">
+          <a href="https://twitter.com/DIESELXP00" 
+          target="_blank" ><i class="fa fa-twitter fa-2x"></i></a></div>
+         
+          <div id="pinterest">
+          <a  href="https://www.pinterest.com/herbartcarcamoa/" target="_blank" ><i class="fa fa-pinterest fa-2x"
+           target="_blank"></i></a></div>
+           
+          <!--<div id="instagram">
+          <a  href="" target="_blank" ><i class="fa fa-instagram fa-2x" 
+          ></i></a></div>-->
+          
+          <div id="google">
+          <a  href="https://plus.google.com/u/2/102977685739246026050/posts" target="_blank" ><i class="fa fa-google-plus fa-2x" 
+          target="blank"></i></a></div>
+          
+          <div id="facebook">
+          <a  href="https://www.facebook.com/bebidasparaadelgazarrapido/" target="_blank" ><i class="fa fa-facebook fa-2x" 
+          target="_blank"></i></a></div>
+          
+          <div id="youtube" >
+          <a  href="https://www.youtube.com/channel/UCVXtP5C7LaAC6VmP6qvtHnQ" target="_blank" ><i class="fa fa-youtube fa-2x"></i></a></div>
+          
+          <div class="w3-dropdown-click donate" style="float: left;">
+          <button onclick="myFunction()" class="w3-btn" style="background-color: #1B51A5;color:white;border-radius: 20px;">Donate</button>
+
+  		<div id="donate" class="w3-dropdown-content w3-card-4" style="width:250px; padding-top: 10px;">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_donations">
+                  <input type="hidden" name="business" value="ernesto.afane2015@gmail.com">
+                  <input type="hidden" name="lc" value="US">
+                  <input type="hidden" name="item_name" value="Salud">
+                  <input type="hidden" name="no_note" value="0">
+                  <input type="hidden" name="currency_code" value="USD">
+                  <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+                  <input type="image" src="resources/donate.PNG" 
+                  border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              </form>
+    			
+   		  </div>
+		</div>             
+       </div> <!--end media navigation-->
+       </div>
+       
+       
+<!--<div class="w3-dropdown-click donate" >
+          <button onclick="myFunction()" class="w3-btn" style="background-color: #1B51A5;color:white;">Donate</button>
+
+  			<div id="donate" class="w3-dropdown-content w3-card-4" style="width:250px; padding-top: 10px;">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_donations">
+                  <input type="hidden" name="business" value="ernesto.afane2015@gmail.com">
+                  <input type="hidden" name="lc" value="US">
+                  <input type="hidden" name="item_name" value="Salud">
+                  <input type="hidden" name="no_note" value="0">
+                  <input type="hidden" name="currency_code" value="USD">
+                  <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+                  <input type="image" src="resources/donate.PNG" 
+                  border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              </form>
+    			
+   		  </div>
+		</div> -->          
+        <nav id="main-nav" class="main-nav">
+	    <ul id="link">
+                <li><a class="main-navUlA" href="index.html">Home</a></li>
+                <li><a class="main-navUlA" href="dietas.html">Dietas</a></li>
+                <li><a class="main-navUlA" href="recetas.html">Recetas</a></li>
+                <li><a class="main-navUlA" href="bebidas.html">Bebidas para Adelgazar</a></li>
+                <li><a class="main-navUlA" href="nutricion.html">Nutricion y Ejercicios</a></li>
+                <li><a class="main-navUlA" href="ContactForm2.html">Contact Us</a></li>
+
+            </ul>
+	</nav>
+    <!--This shadow layer is to be applied when the menu is open for mobile devices-->
+	<div id="cd-shadow-layer"></div>
+    
+    <!--This navigation bar is to be used for the computer and screen greater than 1024px-->
+    
+    <div class="w3-topnav w3-large w3-white navigationBigScreen w3-border w3-light-white" id="nav" style="padding-left:50px;border-bottom: black;">
+      <div style="width:1100px;margin: auto;">
+      <a href="index.html"  style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;"><i class="fa fa-home w3-large"></i></a>
+      <a href="dietas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:green;margin:auto">Dietas</a>
+      <a href="recetas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:orange;">Recetas</a>
+      <a href="bebidas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:teal">Bebidas para Adelgazar</a>
+      <a href="nutricion.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:#D23639;">Nutricion y Ejercicios</a>
+      </div>
+    </div>
+    
+    <div id="wrapper" class="w3-container" style="background-color: #FFFFFF"> 
+<h2><strong>VITAMINA  'A'</strong></h2>
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/2GDP9QnvOto" frameborder="0" allowfullscreen></iframe></div>
+
+ <p> La vitamina A ayuda a la formación y mantenimiento de dientes, tejidos óseos y blandos, membranas mucosas y piel sanos.<br>
+<p>Algunos productos que contienen vitamina A son:</p>
+<ul class="text">
+  	<li>Frutas de color oscuro</li>
+  	<li>Hortalizas de hoja verde</li>
+  	<li>Yema del huevo</li>
+  	<li>Productos lácteos y leche enriquecidos (queso, yogur, mantequilla y crema de leche)</li>
+	<li>Hígado, carne de res y pescado</li></ul>
+<h3><strong>La vitamina A es una vitamina liposoluble</strong></h3>
+<p>Dos tipos diferentes de vitamina, A, se encuentran en la alimentación. La vitamina A preformada se encuentra en productos de origen animal como carne de res, pescado, aves de corral y productos lácteos. El otro tipo, provitamina A, se encuentra en alimentos de origen vegetal, como frutas y verduras. El tipo más común de provitamina A es el betacaroteno.<br><br>
+  La vitamina A también está disponible en suplementos dietéticos, generalmente en forma de acetato de retinilo o palmitato de retinilo (vitamina A preformada), betacaroteno (provitamina A) o una combinación de vitamina A preformada y provitamina A.<br>
+  <h3><strong>Funciones de VITAMINA  &quot;A&quot;</strong></h3>
+La vitamina A ayuda a la formación y al mantenimiento de dientes, tejidos blandos y óseos, membranas mucosas y piel sanos. Se conoce también como retinol, ya que produce los pigmentos en la retina del ojo. Esta vitamina favorece la buena visión, especialmente ante la luz tenue. También se puede requerir para la reproducción y la lactancia. El retinol es una forma activa de vitamina A y se encuentra en los hígados de animales, la leche entera y algunos alimentos fortificados.<br><br>
+  Los carotenoides son tintes (pigmentos) de color oscuro que se encuentran en alimentos de origen vegetal y que pueden transformarse en una forma de vitamina A. Hay más de 500 carotenoides conocidos y uno de ellos es el betacaroteno. El betacaroteno es un antioxidante. Los antioxidantes protegen las células del daño causado por sustancias llamadas radicales libres, los cuales se cree contribuyen al desarrollo de ciertas enfermedades crónicas y juegan un papel en los procesos del envejecimiento.<br><br>
+  Las fuentes alimentarias de carotenoides, como el betacaroteno, pueden reducir el riesgo de cáncer. Los suplementos de betacaroteno no parecen reducir el riesgo de cáncer.<br><br>
+  <h3><strong>Fuentes alimenticias</strong></h3>
+La vitamina A proviene de fuentes animales como los huevos, la carne, la leche, el queso, la crema de leche, el hígado, el riñón y el aceite de hígado de bacalao y de hipogloso. Sin embargo, todas estas fuentes, a excepción de la leche descremada fortificada con vitamina A, tienen un alto contenido de grasa saturada y colesterol.<br>
+  <h3><strong>Las fuentes de betacaroteno abarcan:</strong></h3>
+<ul class="text"><li>Las frutas de color naranja y amarillo brillante como el melón cantalupo, la toronja y los albaricoques.</li>
+  <li>Las hortalizas como las zanahorias, la calabaza, la batata o camote y el calabacín.</li>
+ <li>Otras fuentes de betacaroteno abarcan: el brócoli, la espinaca y la mayoría de las hortalizas de hoja verde.</li>
+  <li>Cuanto más intenso es el color de la fruta u hortaliza, mayor es el contenido de betacaroteno. Estas fuentes vegetales de betacaroteno no tienen grasa ni colesterol.</li></ul>
+  <h3>Efectos secundarios</h3>
+  <ul class="text"><li>Si usted no recibe suficiente vitamina A, es más propenso a contraer enfermedades infecciosas y tener problemas de visión</li>
+  <li>Si usted recibe demasiada vitamina A, puede resultar enfermo. Asimismo, el consumo de grandes dosis de esta vitamina puede causar defectos congénitos.</li>
+  <li>La intoxicación aguda con vitamina A generalmente ocurre cuando un adulto toma varios cientos de miles de unidades internacionales. Los síntomas de intoxicación crónica con vitamina A pueden ocurrir en adultos que toman regularmente más de 25000 Unidades al día.</li></ul>
+<p>  Las grandes cantidades de betacaroteno no lo van a enfermar; sin embargo, el aumento en las cantidades de éste puede volver la piel de color amarillento o anaranjado. El color de la piel retornará a la normalidad una vez que usted reduzca la ingesta de éste.</p></p></p>
+
+    
+</div>
+</body>
+</html>

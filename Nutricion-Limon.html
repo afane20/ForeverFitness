@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">	
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
+
+	 
+    <!--<link rel="stylesheet" href="css/reset.css"> CSS reset -->
+    <link href="css/style.css" rel="stylesheet" type="text/css"> <!-- Gem style -->
+
+    <!--<script src="js/modernizr.js"></script>  Modernizr -->
+    <link href="resources/css/indexCss.css" rel="stylesheet" type="text/css">
+    
+    <!-- JS files -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/main.js"></script> <!-- Gem jQuery -->
+    <script src="js/googleAnalytics.js"></script>
+
+  	<script>
+function myFunction() {
+    document.getElementById("donate").classList.toggle("w3-show");
+}
+</script>
+	<title>Apio</title>
+</head>
+<body>
+    <header id="header">
+	  <div id="cd-hamburger-menu"><a class="cd-img-replace" href="#0">Menu</a></div>
+      <div id="logo"><a href="index.html" ><img src="img/manzana.jpg" style="height:50px; width:50px;" alt="Logo"></a></div>
+	  <div id="cd-cart-trigger"></div>  
+        
+        <div id="Home-icon/logo" class="w3-third w3-container" >
+          <a href="#"><h1></h1></a>
+        </div>
+	</header>
+    
+    <div class="w3-container">
+    <div id="MediaNavigation">
+          <div id="twitter" style="float: left; ">
+          <a href="https://twitter.com/DIESELXP00" 
+          target="_blank" ><i class="fa fa-twitter fa-2x"></i></a></div>
+         
+          <div id="pinterest">
+          <a  href="https://www.pinterest.com/herbartcarcamoa/" target="_blank" ><i class="fa fa-pinterest fa-2x"
+           target="_blank"></i></a></div>
+           
+          <!--<div id="instagram">
+          <a  href="" target="_blank" ><i class="fa fa-instagram fa-2x" 
+          ></i></a></div>-->
+          
+          <div id="google">
+          <a  href="https://plus.google.com/u/2/102977685739246026050/posts" target="_blank" ><i class="fa fa-google-plus fa-2x" 
+          target="blank"></i></a></div>
+          
+          <div id="facebook">
+          <a  href="https://www.facebook.com/bebidasparaadelgazarrapido/" target="_blank" ><i class="fa fa-facebook fa-2x" 
+          target="_blank"></i></a></div>
+          
+          <div id="youtube" >
+          <a  href="https://www.youtube.com/channel/UCVXtP5C7LaAC6VmP6qvtHnQ" target="_blank" ><i class="fa fa-youtube fa-2x"></i></a></div>
+          
+          <div class="w3-dropdown-click donate" style="float: left;">
+          <button onclick="myFunction()" class="w3-btn" style="background-color: #1B51A5;color:white;border-radius: 20px;">Donate</button>
+
+  		<div id="donate" class="w3-dropdown-content w3-card-4" style="width:250px; padding-top: 10px;">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_donations">
+                  <input type="hidden" name="business" value="ernesto.afane2015@gmail.com">
+                  <input type="hidden" name="lc" value="US">
+                  <input type="hidden" name="item_name" value="Salud">
+                  <input type="hidden" name="no_note" value="0">
+                  <input type="hidden" name="currency_code" value="USD">
+                  <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+                  <input type="image" src="resources/donate.PNG" 
+                  border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              </form>
+    			
+   		  </div>
+		</div>             
+       </div> <!--end media navigation-->
+       </div>
+       
+       
+<!--<div class="w3-dropdown-click donate" >
+          <button onclick="myFunction()" class="w3-btn" style="background-color: #1B51A5;color:white;">Donate</button>
+
+  			<div id="donate" class="w3-dropdown-content w3-card-4" style="width:250px; padding-top: 10px;">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_donations">
+                  <input type="hidden" name="business" value="ernesto.afane2015@gmail.com">
+                  <input type="hidden" name="lc" value="US">
+                  <input type="hidden" name="item_name" value="Salud">
+                  <input type="hidden" name="no_note" value="0">
+                  <input type="hidden" name="currency_code" value="USD">
+                  <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+                  <input type="image" src="resources/donate.PNG" 
+                  border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              </form>
+    			
+   		  </div>
+		</div> -->          
+        <nav id="main-nav" class="main-nav">
+	    <ul id="link">
+                <li><a class="main-navUlA" href="index.html">Home</a></li>
+                <li><a class="main-navUlA" href="dietas.html">Dietas</a></li>
+                <li><a class="main-navUlA" href="recetas.html">Recetas</a></li>
+                <li><a class="main-navUlA" href="bebidas.html">Bebidas para Adelgazar</a></li>
+                <li><a class="main-navUlA" href="nutricion.html">Nutricion y Ejercicios</a></li>
+                <li><a class="main-navUlA" href="ContactForm2.html">Contact Us</a></li>
+
+            </ul>
+	</nav>
+    <!--This shadow layer is to be applied when the menu is open for mobile devices-->
+	<div id="cd-shadow-layer"></div>
+    
+    <!--This navigation bar is to be used for the computer and screen greater than 1024px-->
+    
+    <div class="w3-topnav w3-large w3-white navigationBigScreen w3-border w3-light-white" id="nav" style="padding-left:50px;border-bottom: black;">
+      <div style="width:1100px;margin: auto;">
+      <a href="index.html"  style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;"><i class="fa fa-home w3-large"></i></a>
+      <a href="dietas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:green;margin:auto">Dietas</a>
+      <a href="recetas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:orange;">Recetas</a>
+      <a href="bebidas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:teal">Bebidas para Adelgazar</a>
+      <a href="nutricion.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:#D23639;">Nutricion y Ejercicios</a>
+      </div>
+    </div>
+    
+    <div id="wrapper" class="w3-container" style="background-color: #FFFFFF"> 
+    <p><h2><strong>Beneficios de beber agua tibia con limón cada mañana</strong></h2>
+    <div class="videoWrapper">
+    <img src="img/Beneficios-Del-Limon.jpg"></div>
+Aqui te presentamos uno de los mejores aliados para mantenernos saludables,  que  la Naturaleza nos proporciona y es que Los limones tienen muchos beneficios para la salud que se han conocido por siglos. Los dos mayores son su fuerte poder antibacterial, antiviral y los poderes de estimulación inmunológica, así como su uso como una ayuda para la pérdida de peso, porque el jugo de limón es, un depurativo del hígado y mas.</p>
+<p><h3><strong>¿Cómo se prepara el agua tibia con limón?</strong></h3>
+Debes utilizar agua purificada y esta debe estar tibia, no hirviendo. Evita el agua fría, ya que nuestro cuerpo tarda en procesarlo y se necesita más energía para procesar el agua helada que la tibia. Utiliza siempre los limones frescos, orgánicos si es posible, y nunca el ju go de limón embotellado. Exprime 1/2 limón en cada vaso y bébelo a primera hora en ayunas.</p>
+<p><h3><strong>1. Te da energía y mejora tu estado de ánimo</strong></h3>
+La energía que un ser humano recibe de los alimentos proviene de los átomos y moléculas de los alimentos. Cuando los iones cargados de positivos de los alimentos entran en el tracto digestivo e interactúan con las enzimas cargadas de negativos se produce una reacción.</p>
+<p><h3><strong>2. Limpia tu sistema, es un diurético</strong></h3>
+El jugo de limón ayuda a eliminar los materiales no deseados en parte porque los limones aumentan la tasa de orinar en el cuerpo. Por lo tanto, al tomar jugo de limón las toxinas se liberan a un ritmo más rápido, lo que ayuda a mantener la salud del tracto urinario.</p>
+<p><h3><strong>3. Ayuda a la digestión</strong></h3>
+El jugo de limón ayuda a eliminar los materiales no deseados y las toxinas del cuerpo. Debido a su composición atómica similar a la saliva y el ácido clorhídrico de los jugos digestivos, alienta al hígado para producir la bilis, un ácido que se requiere para la digestión. Los limones también son ricos en minerales y vitaminas y ayudan a aflojar las toxinas en el tracto digestivo. </p>
+<p><h3><strong>4. Estimula el sistema inmunológico</strong></h3>
+Gracias a su cantidad de vitamina C, el limón es un gran aliado para fortalecer el sistema inmunológico. Es ideal para luchar contra los resfriados. Son ricos en potasio, lo que estimula el cerebro y la función nerviosa. El potasio también ayuda a controlar la presión arterial. El ácido ascórbico (vitamina C) que se encuentra en los limones posee efectos antiinflamatorios y se utiliza como apoyo complementario para el asma y otros síntomas respiratorios, además de que mejora la absorción de hierro en el cuerpo. <br>
+</p>
+<p><h3><strong>5. Limpia la piel</strong></h3>
+El componente de la vitamina C, así como otros antioxidantes, ayudan a disminuir las arrugas y las manchas y ayuda a combatir los radicales libres. La vitamina C es vital para una piel sana y radiante, ya que su naturaleza alcalina mata algunos tipos de bacterias conocidas por causar acné. Se puede decir que ayuda a limpiar la cara, el jugo de limón es muy bueno para limpiar las manos y  piel grasosa.</p>
+<p><h3><strong>6. Equilibra los niveles de pH de cuerpo</strong></h3>
+Los limones son uno de los alimentos más alcalinizantes para el cuerpo. Claro, que son ácidos por su cuenta, pero dentro de nuestros cuerpos son alcalinos (el ácido cítrico no crea acidez en el cuerpo una vez metabolizado). </p>
+<p><h3><strong>7.  Promueve la curación de las heridas</strong></h3>
+El ácido ascórbico (vitamina C) que se encuentra en los limones, promueve la curación de heridas y es un nutriente esencial en el mantenimiento de la salud de los huesos, tejido conectivo y cartílago. Como se ha indicado previamente, la vitamina C también muestra propiedades antiinflamatorias.</p>
+<p><h3><strong>8.  Refresca el aliento</strong></h3>
+ El limón, la menta o el yogur, grandes aliados para eliminar el mal aliento.<br>
+  Además de un aliento más fresco, los limones ayudan a aliviar el dolor dental y la gingivitis. Ten en cuenta que el ácido cítrico puede erosionar el esmalte dental, por lo que lo mejor es cepillarse los dientes antes de beber el agua de limón o esperar una cantidad significativa de tiempo para cepillarte los dientes después de tomarlo. Además, puedes enjuagar la boca con agua purificada después de terminar su agua de limón.</p>
+<p><h3><strong>9. Hidrata tu sistema linfático. </strong></h3>
+El agua tibia de limón ayuda al sistema inmunológico mediante la hidratación y la reposición de los fluidos perdidos en el cuerpo. Cuando tu cuerpo se ve privado de agua puedes sentir los efectos secundarios, que incluyen: sentirse cansado, lento, disminución de la función inmune, estreñimiento, falta de energía, presión arterial baja / alta, falta de sueño, la falta de claridad mental, etc.</p>
+<p><h3><strong>10. Ayuda en la pérdida de peso</strong></h3>
+Las propiedades del limón para adelgazar son muy conocidas y valoradas. Es un excelente desintoxicante,  desinflamante y contiene grandes cantidades de vitamina C con propiedades antioxidantes.<br>
+Al gunos consejos de nuestra parte: <br>
+⦁	Jamas te expongas al sol con jugo de limon en tu cuerpo.<br>
+<em><strong>Si notas reacciones poco usuales en tu cuerpo que no te favorecen, deja de beber limonada y consulta a tu médico.</strong></em>
+</p>
+    
+    </div>
+</body>
+</html>

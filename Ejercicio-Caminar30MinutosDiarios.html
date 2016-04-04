@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">	
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
+
+	 
+    <!--<link rel="stylesheet" href="css/reset.css"> CSS reset -->
+    <link href="css/style.css" rel="stylesheet" type="text/css"> <!-- Gem style -->
+
+    <!--<script src="js/modernizr.js"></script>  Modernizr -->
+    <link href="resources/css/indexCss.css" rel="stylesheet" type="text/css">
+    
+    <!-- JS files -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/main.js"></script> <!-- Gem jQuery -->
+    <script src="js/googleAnalytics.js"></script>
+
+  	<script>
+function myFunction() {
+    document.getElementById("donate").classList.toggle("w3-show");
+}
+</script>
+	<title>Apio</title>
+</head>
+<body>
+    <header id="header">
+	  <div id="cd-hamburger-menu"><a class="cd-img-replace" href="#0">Menu</a></div>
+      <div id="logo"><a href="index.html" ><img src="img/manzana.jpg" style="height:50px; width:50px;" alt="Logo"></a></div>
+	  <div id="cd-cart-trigger"></div>  
+        
+        <div id="Home-icon/logo" class="w3-third w3-container" >
+          <a href="#"><h1></h1></a>
+        </div>
+	</header>
+    
+    <div class="w3-container">
+    <div id="MediaNavigation">
+          <div id="twitter" style="float: left; ">
+          <a href="https://twitter.com/DIESELXP00" 
+          target="_blank" ><i class="fa fa-twitter fa-2x"></i></a></div>
+         
+          <div id="pinterest">
+          <a  href="https://www.pinterest.com/herbartcarcamoa/" target="_blank" ><i class="fa fa-pinterest fa-2x"
+           target="_blank"></i></a></div>
+           
+          <!--<div id="instagram">
+          <a  href="" target="_blank" ><i class="fa fa-instagram fa-2x" 
+          ></i></a></div>-->
+          
+          <div id="google">
+          <a  href="https://plus.google.com/u/2/102977685739246026050/posts" target="_blank" ><i class="fa fa-google-plus fa-2x" 
+          target="blank"></i></a></div>
+          
+          <div id="facebook">
+          <a  href="https://www.facebook.com/bebidasparaadelgazarrapido/" target="_blank" ><i class="fa fa-facebook fa-2x" 
+          target="_blank"></i></a></div>
+          
+          <div id="youtube" >
+          <a  href="https://www.youtube.com/channel/UCVXtP5C7LaAC6VmP6qvtHnQ" target="_blank" ><i class="fa fa-youtube fa-2x"></i></a></div>
+          
+          <div class="w3-dropdown-click donate" style="float: left;">
+          <button onclick="myFunction()" class="w3-btn" style="background-color: #1B51A5;color:white;border-radius: 20px;">Donate</button>
+
+  		<div id="donate" class="w3-dropdown-content w3-card-4" style="width:250px; padding-top: 10px;">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_donations">
+                  <input type="hidden" name="business" value="ernesto.afane2015@gmail.com">
+                  <input type="hidden" name="lc" value="US">
+                  <input type="hidden" name="item_name" value="Salud">
+                  <input type="hidden" name="no_note" value="0">
+                  <input type="hidden" name="currency_code" value="USD">
+                  <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+                  <input type="image" src="resources/donate.PNG" 
+                  border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              </form>
+    			
+   		  </div>
+		</div>             
+       </div> <!--end media navigation-->
+       </div>
+       
+       
+<!--<div class="w3-dropdown-click donate" >
+          <button onclick="myFunction()" class="w3-btn" style="background-color: #1B51A5;color:white;">Donate</button>
+
+  			<div id="donate" class="w3-dropdown-content w3-card-4" style="width:250px; padding-top: 10px;">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_donations">
+                  <input type="hidden" name="business" value="ernesto.afane2015@gmail.com">
+                  <input type="hidden" name="lc" value="US">
+                  <input type="hidden" name="item_name" value="Salud">
+                  <input type="hidden" name="no_note" value="0">
+                  <input type="hidden" name="currency_code" value="USD">
+                  <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+                  <input type="image" src="resources/donate.PNG" 
+                  border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              </form>
+    			
+   		  </div>
+		</div> -->          
+        <nav id="main-nav" class="main-nav">
+	    <ul id="link">
+                <li><a class="main-navUlA" href="index.html">Home</a></li>
+                <li><a class="main-navUlA" href="dietas.html">Dietas</a></li>
+                <li><a class="main-navUlA" href="recetas.html">Recetas</a></li>
+                <li><a class="main-navUlA" href="bebidas.html">Bebidas para Adelgazar</a></li>
+                <li><a class="main-navUlA" href="nutricion.html">Nutricion y Ejercicios</a></li>
+                <li><a class="main-navUlA" href="ContactForm2.html">Contact Us</a></li>
+
+            </ul>
+	</nav>
+    <!--This shadow layer is to be applied when the menu is open for mobile devices-->
+	<div id="cd-shadow-layer"></div>
+    
+    <!--This navigation bar is to be used for the computer and screen greater than 1024px-->
+    
+    <div class="w3-topnav w3-large w3-white navigationBigScreen w3-border w3-light-white" id="nav" style="padding-left:50px;border-bottom: black;">
+      <div style="width:1100px;margin: auto;">
+      <a href="index.html"  style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;"><i class="fa fa-home w3-large"></i></a>
+      <a href="dietas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:green;margin:auto">Dietas</a>
+      <a href="recetas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:orange;">Recetas</a>
+      <a href="bebidas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:teal">Bebidas para Adelgazar</a>
+      <a href="nutricion.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:#D23639;">Nutricion y Ejercicios</a>
+      </div>
+    </div>
+    
+    <div id="wrapper" class="w3-container" style="background-color: #FFFFFF"> 
+<h2><strong>Beneficios de caminar 30 minutos diarios</strong></h2>
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/kP5dnH8pv94?list=PLHKsq4o1biJjIqbjle_rsL2rYbZs4bN1I" frameborder="0" allowfullscreen></iframe></div>
+
+<p>Una actividad tan sencilla como caminar puede mejorar muchos aspectos de nuestra vida, desde ayudarnos a perder peso hasta impedir que suframos trastornos depresivosBeneficios de caminar 30 minutos diarios. Muchas personas no saben que caminar es uno de los mejores ejercicios que podemos hacer a diario, ya que esta simple rutina puede tener muchos beneficios para la salud. Un estudio reveló que el 40% de los adultos no caminan nada y esta cifra va en aumento a medida que pasa el tiempo, ya que el desarrollo de la tecnología ha hecho labores más fáciles pero menos saludables.<br><br>
+  Caminar es una de las mejores formas de comenzar una rutina de ejercicios, ya que ayuda a ejercitar los músculos y a quemar calorías. Pero sus beneficios se concentran cuando nos dedicamos exclusivamente a caminar y aumentando poco a poco el ritmo. No es suficiente deambular por ahí como de costumbre ya que los efectos de la caminata se reducen; por eso si quieres aprovechar sus beneficios, lo mejor es dedicarle al menos 30 minutos diarios todos los días, sin distracciones y consiguiendo cada vez un mejor ritmo. ¿Quieres conocer los mejores beneficios de caminar a diario?</p>
+
+<h3><strong>Fortalece el corazón y previene enfermedades cardiovasculares</strong></h3>
+Caminar al menos 30 minutos diarios reduce el riesgo de sufrir de enfermedades cardíacas y accidentes cerebrovasculares hasta en un 27%.  Esta práctica es ideal para controlar la presión alta, favorece el sistema circulatorio, reduce el colesterol malo (LDL) y ayuda aumentar el colesterol bueno (HDL). Al aumentar el ritmo cardiaco, esta práctica favorece notablemente la salud del corazón.<br>
+  <h3><strong>Reduce el riesgo de padecer ciertas enfermedades</strong></h3>
+Diferentes estudios sugieren que aquellas personas que caminan al menos 30 minutos diarios, tienden a sufrir menos de diabetes tipo II, asma y algunos tipos de cáncer. Aquellas personas que tienen una rutina diaria de actividad física, están menos propensas a desarrollar cáncer de colon, mama y útero.<br>
+  <h3><strong>Ayuda a equilibrar el peso</strong></h3>
+Caminar todos los días a un buen ritmo, ayuda a acelerar el metabolismo y gracias a esto favorece al organismo con la quema de grasas. Entre más ritmo se tenga durante la caminata, más calorías se pueden llegar a quemar. Caminar es uno de los mejores ejercicios para mantener el peso equilibrado, ya que aumenta la masa y el tono muscular.<br>
+  <h3><strong>Previene la osteoporosis</strong></h3>
+  <p>
+Al caminar diariamente, estamos estimulando y fortaleciendo los huesos, aumentando la densidad ósea. Esta práctica saludable es recomendada sobre todo para las mujeres, ya que además mantiene la salud de las articulaciones, ayudando a prevenir problemas como la artritis.
+</p>
+  <h3><strong>Ayuda a tonificar piernas, glúteos y abdomen</strong></h3>
+  <p>
+Caminar 30 minutos diarios con una buena postura del cuerpo, ayuda a fortalecer las piernas, las tonifica y las ayuda a reafirmar. Así mismo también ayuda a tonificar los glúteos y los levanta naturalmente. Esta práctica ayuda a quemar grasa abdominal y con esto también favorece la tonificación de esta área del cuerpo.</p>
+  <h3><strong>Previene la demencia</strong></h3>
+  <p>
+  Estudios han revelado que 1 de cada 14 personas mayor de 65 años y 1 de cada 6 mayores de 80, tienden a sufrir de demencia. Caminar a buen ritmo durante 30 minutos diarios, puede evitar la contracción del cerebro y así preservar la memoria a medida que pasan los años. La actividad física estimula y protege el cerebro, reduciendo el riesgo de demencia hasta en un 40%.<br>
+  <h3><strong>Aumenta los niveles de energía</strong></h3>
+Cuando caminamos, nuestro organismo se activa, aumenta la circulación y el suministro de oxígeno a cada célula del cuerpo. Gracias a esto, este hábito saludable nos ayuda a mantener más activos, combate los bajones de energía después del almuerzo y nos mantiene despiertos.
+</p>
+<h3><strong>Combate la depresión</strong></h3>
+<p>
+  Estudios han revelado que caminar es una buena terapia para combatir la depresión y todos sus síntomas. Caminar 30 minutos diarios es ideal para salir de una crisis depresiva y también para prevenir caer en este problema.</p>
+<h3><strong>Evita la obesidad y la aparición de celulitis</strong></h3>
+ <p> Al activar el metabolismo, caminar 30 minutos diarios favorece la eliminación de toxinas y grasa que el cuerpo no necesita, evitando así la obesidad. Además de favorecer la quema de grasa, ayuda contra la retención de líquidos, activa la circulación y con esto ayuda a prevenir la celulitis.</p>
+<h3><strong>Mejora la actividad sexual</strong></h3>
+ <p> Como todos sabemos, el ejercicio y el sexo van muy de la mano. Una reciente investigación hecha entre mujeres de 45 a 55 años, reveló que caminar a diario incrementa tanto el deseo sexual como la satisfacción.</p>
+    
+    
+</div>
+</body>
+</html>

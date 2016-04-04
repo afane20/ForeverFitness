@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">	
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
+
+	 
+    <!--<link rel="stylesheet" href="css/reset.css"> CSS reset -->
+    <link href="css/style.css" rel="stylesheet" type="text/css"> <!-- Gem style -->
+
+    <!--<script src="js/modernizr.js"></script>  Modernizr -->
+    <link href="resources/css/indexCss.css" rel="stylesheet" type="text/css">
+    
+    <!-- JS files -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/main.js"></script> <!-- Gem jQuery -->
+    <script src="js/googleAnalytics.js"></script>
+
+  	<script>
+function myFunction() {
+    document.getElementById("donate").classList.toggle("w3-show");
+}
+</script>
+	<title>Apio</title>
+</head>
+<body>
+    <header id="header">
+	  <div id="cd-hamburger-menu"><a class="cd-img-replace" href="#0">Menu</a></div>
+      <div id="logo"><a href="index.html" ><img src="img/manzana.jpg" style="height:50px; width:50px;" alt="Logo"></a></div>
+	  <div id="cd-cart-trigger"></div>  
+        
+        <div id="Home-icon/logo" class="w3-third w3-container" >
+          <a href="#"><h1></h1></a>
+        </div>
+	</header>
+    
+    <div class="w3-container">
+    <div id="MediaNavigation">
+          <div id="twitter" style="float: left; ">
+          <a href="https://twitter.com/DIESELXP00" 
+          target="_blank" ><i class="fa fa-twitter fa-2x"></i></a></div>
+         
+          <div id="pinterest">
+          <a  href="https://www.pinterest.com/herbartcarcamoa/" target="_blank" ><i class="fa fa-pinterest fa-2x"
+           target="_blank"></i></a></div>
+           
+          <!--<div id="instagram">
+          <a  href="" target="_blank" ><i class="fa fa-instagram fa-2x" 
+          ></i></a></div>-->
+          
+          <div id="google">
+          <a  href="https://plus.google.com/u/2/102977685739246026050/posts" target="_blank" ><i class="fa fa-google-plus fa-2x" 
+          target="blank"></i></a></div>
+          
+          <div id="facebook">
+          <a  href="https://www.facebook.com/bebidasparaadelgazarrapido/" target="_blank" ><i class="fa fa-facebook fa-2x" 
+          target="_blank"></i></a></div>
+          
+          <div id="youtube" >
+          <a  href="https://www.youtube.com/channel/UCVXtP5C7LaAC6VmP6qvtHnQ" target="_blank" ><i class="fa fa-youtube fa-2x"></i></a></div>
+          
+          <div class="w3-dropdown-click donate" style="float: left;">
+          <button onclick="myFunction()" class="w3-btn" style="background-color: #1B51A5;color:white;border-radius: 20px;">Donate</button>
+
+  		<div id="donate" class="w3-dropdown-content w3-card-4" style="width:250px; padding-top: 10px;">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_donations">
+                  <input type="hidden" name="business" value="ernesto.afane2015@gmail.com">
+                  <input type="hidden" name="lc" value="US">
+                  <input type="hidden" name="item_name" value="Salud">
+                  <input type="hidden" name="no_note" value="0">
+                  <input type="hidden" name="currency_code" value="USD">
+                  <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+                  <input type="image" src="resources/donate.PNG" 
+                  border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              </form>
+    			
+   		  </div>
+		</div>             
+       </div> <!--end media navigation-->
+       </div>
+       
+       
+<!--<div class="w3-dropdown-click donate" >
+          <button onclick="myFunction()" class="w3-btn" style="background-color: #1B51A5;color:white;">Donate</button>
+
+  			<div id="donate" class="w3-dropdown-content w3-card-4" style="width:250px; padding-top: 10px;">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                  <input type="hidden" name="cmd" value="_donations">
+                  <input type="hidden" name="business" value="ernesto.afane2015@gmail.com">
+                  <input type="hidden" name="lc" value="US">
+                  <input type="hidden" name="item_name" value="Salud">
+                  <input type="hidden" name="no_note" value="0">
+                  <input type="hidden" name="currency_code" value="USD">
+                  <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+                  <input type="image" src="resources/donate.PNG" 
+                  border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              </form>
+    			
+   		  </div>
+		</div> -->          
+        <nav id="main-nav" class="main-nav">
+	    <ul id="link">
+                <li><a class="main-navUlA" href="index.html">Home</a></li>
+                <li><a class="main-navUlA" href="dietas.html">Dietas</a></li>
+                <li><a class="main-navUlA" href="recetas.html">Recetas</a></li>
+                <li><a class="main-navUlA" href="bebidas.html">Bebidas para Adelgazar</a></li>
+                <li><a class="main-navUlA" href="nutricion.html">Nutricion y Ejercicios</a></li>
+                <li><a class="main-navUlA" href="ContactForm2.html">Contact Us</a></li>
+
+            </ul>
+	</nav>
+    <!--This shadow layer is to be applied when the menu is open for mobile devices-->
+	<div id="cd-shadow-layer"></div>
+    
+    <!--This navigation bar is to be used for the computer and screen greater than 1024px-->
+    
+    <div class="w3-topnav w3-large w3-white navigationBigScreen w3-border w3-light-white" id="nav" style="padding-left:50px;border-bottom: black;">
+      <div style="width:1100px;margin: auto;">
+      <a href="index.html"  style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;"><i class="fa fa-home w3-large"></i></a>
+      <a href="dietas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:green;margin:auto">Dietas</a>
+      <a href="recetas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:orange;">Recetas</a>
+      <a href="bebidas.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:teal">Bebidas para Adelgazar</a>
+      <a href="nutricion.html" style="padding-top:10px;padding-bottom:10px;padding-right:45px;padding-left:45px;color:#D23639;">Nutricion y Ejercicios</a>
+      </div>
+    </div>
+    
+    <div id="wrapper" class="w3-container" style="background-color: #FFFFFF"> 
+<h2><strong>Bajar de Peso  con Jugo Verde</strong></h2>
+    <div class="videoWrapper">
+    <iframe src="https://www.youtube.com/embed/6QccJ1K7GRc" frameborder="0" allowfullscreen></iframe></div>
+
+<p>Te has preguntado alguna vez: ¿Porque Sufres de poca energía durante el día? Te sientes inflamado; con extra peso, super cansado e irritado. Todos estos  sintomas son debido  a mala alimentacion. Si Deseas adelgazar,  sentirte bien y con mas energia.  Aqui te presentamos El Fabuloso &quot;Jugo Verde&quot; que no es mas que una combinacion de frutas y vegetales que te ayudaran a sentirte mejor y a bajar de peso. Desintoxicarte y bajar de peso al mismo tiempo lo puedes lograr  con este nutritivo jugo.  Es una de las mejores maneras de depurar las toxinas de tu cuerpo y si  lo  ¡Tómas en ayunas! es milagroso. <br><br>
+ 
+Ahora bien... Todos sabemos que debemos consumir verduras y vegetales verdes. Ya que dan al cuerpo las vitaminas y minerales que necesita para generar energía. El jugo verde,  es una manera rápida de nutrir las células de nuestro cuerpo con los nutrientes que necesita. o sea Alimentar al cuerpo de manera celular.<br><br>
+
+Para perder peso mas rápido es ideal empezar a tomar este jugo 2 veces a el día, y esto se debe a su alto contenido de enzimas. Aconsejamos tomar un vaso en ayunas y otro 8 horas despues. hara milagros. En tu dieta y te seniras muy bien. Existen varias versiones de este Fabuloso jugo o licuado aqui te presentaremos una de ellas.
+  <h4><strong>Ingredientes que vamos a necesitar para esta ocasion:</strong></h4>
+ <ul class="text">  <li>2 Pepinos.</li>
+  <li>2 Limones. ( al gusto)</li>
+  <li>1 ramo de col rizada. ( también conocido como KALE en ingles)</li>
+  <li>1 Ramo de Espinacas.</li>
+<li>3 Manzanas Rojas o verdes.</li>
+<li>Un toque de jengibre es opcional</li></ul>
+<p>Si no tienes extractor de jugo que en este caso seria lo ideal. Puedes licuarlo y despues colarlo que tambien funciona. Aunque puede que no lo crean con solo mirarlo, este jugo verde tiene un sabor delicioso! La mezcla de las hojas verdes, el agua del apio, y el sabor dulce de las manzanas hacen la perfecta combinación.<br><br>
+  Muchos de las combinaciones de jugos de vegetales son nutritivas, pero diría que esta es una de las mejores para empezar a adherir jugos de vegetales a una dieta diaria.<br>
+  <h3><strong>Beneficios Del Jugo Verde Para Bajar De Peso</strong></h3>
+Los siguientes son algunos beneficios de tomar “jugo verde” y extraer el jugo a los vegetales para bajar de peso y mantener un cuerpo saludable.<br>
+  La clorofila es el fotoquímico que le da el color verde intenso a la pantas y hojas . Es similar a la hemoglobina de la sangre que transporta el oxígeno. Como un poderoso desintoxicante y rejuvenecedor, se podría decir que a clorofila es la base de la cadena alimenticia. La clorofila es necesaria por su alto contenido de enzymas que ayudan a la digestión de alimentos y a balancear el PH del cuerpo.<br>
+  Antioxidantes  estos nos mantienen joven y saludable. Jugos verdes contienen una amplia gama de antioxidantes, dependiendo a las verduras o frutas para hacer el jugo.<br>
+  Los antioxidantes combaten los radicales libres que se forman durante el proceso de oxidación del cuerpo .<br>
+  
+  <h3><strong>Alcalízate para mantener un cuerpo delgado</strong></h3>
+Los jugos verdes son ricos en enzimas y tienen un alto contenido en minerales, que ayuda a restaurar la alcalinidad normal de los tejidos del cuerpo. Lo mas importante es empezar el proceso de curación de adentro hacia afuera. Limpiando y nutriendo las células para acabar con los problemas desde la raíz. Y como dijimos al inicio... Te sentiras mejor, te ayudara a bajar de peso y lleno de energia.</p>
+
+ 
+    </div>
+</body>
+</html>
