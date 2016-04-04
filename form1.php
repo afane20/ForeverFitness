@@ -91,7 +91,7 @@ if(isset($_POST['email'])) {
  
   }
  
-    $email_message = "Form details below.\n\n";
+    $email_message = "Contact Information from Forever Fitness.\n\n";
  
      
  
