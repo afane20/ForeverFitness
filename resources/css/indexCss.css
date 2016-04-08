@@ -61,15 +61,67 @@
 
 }
 
+.home1{
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:45px;
+	padding-left:45px;	
+}
+
+.dietas1{
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:45px;
+	padding-left:45px;
+	color:green;
+	margin:auto;
+}
+
+.recetas1 {
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:45px;
+	padding-left:45px;
+	color:orange;
+}
+
+.bebidas1{
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:45px;
+	padding-left:45px;
+	color:teal
+}
+
+.ejercicio1{
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:45px;
+	padding-left:45px;
+	color:#D23639;
+}
+
+#TheButton{
+	background-color: #1B51A5;
+	color:white;
+	border-radius: 20px;
+}
+
+#floatingIn {
+	float: left; 
+}
+	
 #twitter {
 	color: #3487D4;
 	padding:5px;
 	margin-right:10px;
+	float: left; 
 }
 .twitter {
 	color: #3487D4;
 	padding:5px;
 	margin-right:10px;
+	float: left; 
 }
 
 #twitter:hover {
